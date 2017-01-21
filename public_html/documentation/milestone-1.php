@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-
+		<title>PWP Milestone 1</title>
 	</head>
 	<body>
 		<h1>Personal Website Project: Milestone 1 Documentation</h1>
