@@ -15,7 +15,7 @@
 				<h3>Third Scroll-point/About Me</h3>
 					<p>Since people are still scrolling past the portfolio, I will include an "about me" section to highlight some of my professional and life experience and give readers a feel for my personality.</p>
 				<h3>Fourth Scroll-point/Skillz, yo</h3>
-					<p>Next, I will list the software, tool sets, and other skills I'm proficient in or have experience using. It's possible I'll use a visual representation of my skills in the form of a graph or chart, and maybe add links to some certificates from Lynda, etc to show my dedication to learning.</p>
+					<p>Next, I will list the software, tool sets, and other skills I'm proficient in or have experience using, and probably add links to some certificates from Lynda, etc to show my dedication to learning.</p>
 				<h3>Final Scroll-point/Contact Me!</h3>
 					<p>The next thing I'll need include will be my contact information, including my email address, links to my linkedIn and Instagram profiles, and a link to my downloadable resume. At the end of the page will be an embedded contact form so potential employers can reach me directly through the site.</p>
 		<h2>Wireframes</h2>
