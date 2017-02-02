@@ -8,7 +8,7 @@
 				margin: 5px;
 				border: 1px solid #ccc;
 				float: left;
-				width: 180px;
+				width: 200px;
 			}
 
 			div.img:hover {
@@ -26,7 +26,6 @@
 			}
 		</style>
 	</head>
-</html>
 	<body>
 		<h1>Personal Website Project: Milestone 2 Documentation</h1>
 			<header>
@@ -35,15 +34,15 @@
 			</header>
 				<div class="first">
 					<h3>Opening Page</h3>
-					<p>The first thing I want people to see is a well-thought-out (read: aesthetically pleasing and incredibly responsive) image frame with either my picture or a video (exact content tbd), overlaid with a "hello/welcome" message and my name. I would like it to be simple yet intriguing enough to make visitors scroll down. I am considering including a favorite quote. I decided to lay out (in a fibonacci-inspired style) small thumbnails with links to each section of my portfolio, for ease of navigation.</p>
+					<p>The first thing I want people to see is a well-thought-out (read: aesthetically pleasing and incredibly responsive) image frame with either my picture or a video (exact content tbd), overlaid with a "hello/welcome" message and my name. I would like it to be simple yet intriguing enough to make visitors scroll down. I am considering including a favorite quote.</p>
 				</div>
 				<div class="second">
 					<h3>Portfolio</h3>
-					<p>Since my purpose is to showcase my abilities as a Web Developer, the very next thing on this website will be my development portfolio, hopefully filled with lots of interesting and useful sites and apps I've created. I think a gallery of images with clickable links will be ideal. To keep with the layout consistency, I will place images or colors in the spaces in my layout that are not filled with actual development projects. </p>
+					<p>Since my purpose is to showcase my abilities as a Web Developer, the very next thing on this website will be my development portfolio, hopefully filled with lots of interesting and useful sites and apps I've created. I think a gallery of images with clickable links will be ideal. </p>
 				</div>
 				<div class="third">
 					<h3>Third Scroll-point/About Me</h3>
-					<p>Since people are still scrolling past the portfolio, I will include an "about me" section to highlight some of my professional and life experience and give readers a feel for my personality. The background will be a photo of Albuquerque. </p>
+					<p>Since people are still scrolling past the portfolio, I will include an "about me" section to highlight some of my professional and life experience and give readers a feel for my personality.</p>
 				</div>
 				<div class="fourth">
 					<h3>Fourth Scroll-point/Skillz, yo</h3>
@@ -53,30 +52,28 @@
 					<h3>Final Scroll-point/Contact Me!</h3>
 					<p>The next thing I'll include will be a footer with my contact information, including my email address, links to my linkedIn, GitHub, and Instagram profiles, and a link to my downloadable resume. At the end of the page will be an embedded contact form so potential employers can reach me directly through the site.</p>
 				</div>
+		<h2>Wireframes</h2>
+		<h3>Desktop</h3>
 		<div class="wireframes">
-			<h2>Wireframes</h2>
-			<h3>Desktop</h3>
 				<div class="img">
 						<img src="../images/desktop_1_welcome.tif" alt="Welcome">
-					</a>
-					<div class="desc">Add a description of the image here</div>
+					<div class="desc">I decided to lay out (in a fibonacci-inspired style) small thumbnails with links to each section of my portfolio, for ease of navigation.</div>
 				</div>
-
 				<div class="img">
 						<img src="../images/desktop_2_portfolio.tif" alt="Portfolio">
-					</a>
-					<div class="desc">Add a description of the image here</div>
+					<div class="desc">To keep with the layout consistency, I will place images or colors in the spaces in my layout that are not filled with actual development projects.</div>
 				</div>
-
 				<div class="img">
 						<img src="../images/desktop_3_about_me.tif" alt="About Me">
-					</a>
-					<div class="desc">Add a description of the image here</div>
+					<div class="desc">The background will be a photo of Albuquerque.</div>
 				</div>
 			<div class="img">
 					<img src="../images/desktop_4_Skillz.tif" alt="Skills">
-				</a>
-				<div class="desc">Add a description of the image here</div>
+				<div class="desc">A visual of the software, tool sets, and other skills I'm proficient in or have experience using</div>
+			</div>
+			<div class="img">
+				<img src="../images/desktop_5_Contact_Form.tif" alt="Contact">
+				<div class="desc">The footer will have contact info and links, and a contact form will be below that, appearing as users continue to scroll.</div>
 			</div>
 		</div>
 	</body>
