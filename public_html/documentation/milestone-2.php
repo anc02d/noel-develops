@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
-		<title>PWP Milestone 2</title>
+		<title>PWP Milestone 2a</title>
 	</head>
 	<body>
-		<h1>Personal Website Project:<br />Milestone 2 Documentation</h1>
+		<h1>Personal Website Project:<br />Milestone 2a Documentation</h1>
 			<header>
 				<h2>Content Strategy</h2>
 				<p>My site will be one static page, and will consist of the following content: </p>
