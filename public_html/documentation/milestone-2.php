@@ -2,32 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
 		<title>PWP Milestone 2</title>
-		<style>
-			div.img {
-				margin: 5px;
-				border: 1px solid #ccc;
-				float: left;
-				width: 200px;
-			}
-
-			div.img:hover {
-				border: 1px solid #777;
-			}
-
-			div.img img {
-				width: 100%;
-				height: auto;
-			}
-
-			div.desc {
-				padding: 15px;
-				text-align: center;
-			}
-		</style>
 	</head>
 	<body>
-		<h1>Personal Website Project: Milestone 2 Documentation</h1>
+		<h1>Personal Website Project:<br />Milestone 2 Documentation</h1>
 			<header>
 				<h2>Content Strategy</h2>
 				<p>My site will be one static page, and will consist of the following content: </p>
@@ -50,32 +29,10 @@
 				</div>
 				<div class="final">
 					<h3>Final Scroll-point/Contact Me!</h3>
-					<p>The next thing I'll include will be a footer with my contact information, including my email address, links to my linkedIn, GitHub, and Instagram profiles, and a link to my downloadable resume. At the end of the page will be an embedded contact form so potential employers can reach me directly through the site.</p>
+					<p>The next thing I'll include will be a footer with my contact information (showing under the skills section), including my email address, links to my linkedIn, GitHub, and Instagram profiles, and a link to my downloadable resume. After scrolling past the footer, at the end of the page will be an embedded contact form so potential employers can reach me directly through the site.</p>
 				</div>
 		<h2>Wireframes</h2>
 		<h3>Desktop</h3>
-		<div class="wireframes">
-				<div class="img">
-						<img src="../images/desktop_1_welcome.tif" alt="Welcome">
-					<div class="desc">I decided to lay out (in a fibonacci-inspired style) small thumbnails with links to each section of my portfolio, for ease of navigation.</div>
-				</div>
-				<div class="img">
-						<img src="../images/desktop_2_portfolio.tif" alt="Portfolio">
-					<div class="desc">To keep with the layout consistency, I will place images or colors in the spaces in my layout that are not filled with actual development projects.</div>
-				</div>
-				<div class="img">
-						<img src="../images/desktop_3_about_me.tif" alt="About Me">
-					<div class="desc">The background will be a photo of Albuquerque.</div>
-				</div>
-			<div class="img">
-					<img src="../images/desktop_4_Skillz.tif" alt="Skills">
-				<div class="desc">A visual of the software, tool sets, and other skills I'm proficient in or have experience using</div>
-			</div>
-			<div class="img">
-				<img src="../images/desktop_5_Contact_Form.tif" alt="Contact">
-				<div class="desc">The footer will have contact info and links, and a contact form will be below that, appearing as users continue to scroll.</div>
-			</div>
-		</div>
+		<h3>iPhone</h3>
 	</body>
-
 </html>
