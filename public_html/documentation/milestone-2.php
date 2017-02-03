@@ -17,7 +17,7 @@
 				</div>
 				<div class="second">
 					<h3>Portfolio</h3>
-					<p>Since my purpose is to showcase my abilities as a Web Developer, the very next thing on this website will be my development portfolio, hopefully filled with lots of interesting and useful sites and apps I've created. I think a layout of images with clickable links will be ideal. The layout will keep the fibonnaci theme but I will need to fill in space with colors or images to make up for my current lack of portfolio items. </p>
+					<p>Since my purpose is to showcase my abilities as a Web Developer, the very next thing on this website will be my development portfolio, hopefully filled with lots of interesting and useful sites and apps I've created. I think a layout of images with clickable links will be ideal. The layout will keep the fibonnaci theme but I will need to fill in space with colors or images to make up for my current lack of portfolio items. In the phone layout, this won't be an issue, but I will need to come up with a strategy to prevent endless phone scrolling once I get more experience. </p>
 				</div>
 				<div class="third">
 					<h3>Third Scroll-point/About Me</h3>
