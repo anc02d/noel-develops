@@ -39,7 +39,6 @@
 						<div class="desc">Second Portfolio Screen for a phone.</div>
 					</div>
 				</div>
-				</div>
 				<div class="third">
 					<h3>Third Scroll-point/About Me</h3>
 					<p>Since people are still scrolling past the portfolio, I will include an "about me" section to highlight some of my professional and life experience and give readers a feel for my personality. The background image will be a photo I took of Albuquerque.</p>
