@@ -13,7 +13,7 @@
 			</header>
 				<div class="first">
 					<h3>Opening Page</h3>
-					<p>The first thing I want people to see is a well-thought-out (read: aesthetically pleasing and incredibly responsive) image frame with either my picture or a video (exact content tbd), overlaid with a "hello/welcome" message and my name. I would like it to be simple yet intriguing enough to make visitors scroll down. I am considering including a favorite quote. I'm going to do a fibonacci-inspired layout with all navigation links on the first page, as well as at the top.</p>
+					<p>The first thing I want people to see is a well-thought-out (read: aesthetically pleasing and incredibly responsive) image frame with either my picture or a video (exact content tbd), overlaid with a "hello/welcome" message and my name. I would like it to be simple yet intriguing enough to make visitors scroll down. I am considering including a favorite quote. I'm going to do a fibonacci-inspired layout with all navigation links on the first page, as well as at the top of each page as the user scrolls.</p>
 				</div>
 				<div class="second">
 					<h3>Portfolio</h3>
