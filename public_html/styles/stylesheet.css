@@ -8,3 +8,34 @@ h1 {
 p {
 	font-family: 'Lora', serif;
 }
+
+div.desktop {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+}
+
+div.phone {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.desktop {
+	position: relative;
+}
+ .phone {
+	 position: relative;
+ }
+
+ img {
+	 border: 1px solid black;
+ }
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+h3 {
+	clear: left;
+}
