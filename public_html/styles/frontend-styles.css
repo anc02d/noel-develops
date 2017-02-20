@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sahitya|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300|Rokkitt|Raleway');
 
 .navbar {
 	background-color: black;
@@ -8,28 +8,29 @@ nav {
 	list-style: none;
 	margin: 0px auto;
 	color: whitesmoke;
-	font-family: 'Raleway', sans-serif;
-	/*font-size: 2em;*/
+	font-family: 'Raleway', serif;
+	font-size: 2em;
 }
 /*thank you http://stackoverflow.com/questions/23400234/centering-brand-logo-in-bootstrap-3-navbar/34150526#34150526 */
 .navbar-brand {
 	transform: translateX(-50%);
 	left: 50%;
 	position: absolute;
-	font-family: 'Sahitya', serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 4rem;
 }
 
 nav ul li {
 	list-style-type: none;
 	float:left;
-	margin: 10px 5px 5px;
+	margin: 10px 10px 5px;
 	padding: 10px;
-	border: 2px solid crimson;
-	border-radius: 5px;
+
 }
 li:hover {
 	background-color: crimson;
+	border: 2px solid crimson;
+	border-radius: 5px;
 }
 
 .navbar-right {
@@ -64,11 +65,11 @@ img {
 	padding: 5% 5%;
 	text-align: center;
 	vertical-align: middle;
-	color: white;
+	color: crimson;
 	font-weight: bold;
-	font-family: 'Sahitya', serif;
-	font-size: 2rem;
-	text-shadow: 1px 2px crimson;
+	font-family: 'Raleway', serif;
+	font-size: 5rem;
+	text-shadow: 1px 2px white;
 }
 
 #contact {

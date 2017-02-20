@@ -24,7 +24,7 @@
 				<li>skills</li>
 			</ul>
 
-				<a class="navbar-brand" id="logo" href="#">noel < <span class="fa fa-magic"></span> > develops</span></a>
+				<a class="navbar-brand" id="logo" href="#">NOEL < <span class="fa fa-magic"></span> > DEVELOPS</span></a>
 
 			<ul class="navbar-right">
 				<li>about</li>
