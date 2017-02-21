@@ -72,7 +72,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="col-xs-6 col-md-3" id="portfolio">
 				<div class="content">
 					<div class="table">

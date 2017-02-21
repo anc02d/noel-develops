@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300|Rokkitt|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300|Rokkitt|Arbutus+Slab|Karma');
 
 .navbar {
 	background-color: black;
@@ -7,8 +7,8 @@
 nav {
 	list-style: none;
 	margin: 0px auto;
-	color: whitesmoke;
-	font-family: 'Raleway', serif;
+	color: antiquewhite;
+	font-family: 'Karma', serif;
 	font-size: 2em;
 }
 /*thank you http://stackoverflow.com/questions/23400234/centering-brand-logo-in-bootstrap-3-navbar/34150526#34150526 */
@@ -17,7 +17,7 @@ nav {
 	left: 50%;
 	position: absolute;
 	font-family: 'Poppins', sans-serif;
-	font-size: 4rem;
+	font-size: 2em;
 }
 
 nav ul li {
@@ -51,7 +51,7 @@ img {
 }
 
 #welcome {
-	background-color: grey;
+	background-color: #A0988C;
 	width: 50%;
 	padding-bottom: 50%;
 	margin: 10px;
@@ -67,13 +67,13 @@ img {
 	vertical-align: middle;
 	color: crimson;
 	font-weight: bold;
-	font-family: 'Raleway', serif;
-	font-size: 5rem;
-	text-shadow: 1px 2px white;
+	font-family: 'Arbutus Slab', serif;
+	font-size: 3rem;
+	text-shadow: 1px 2px antiquewhite;
 }
 
 #contact {
-	background-color: #cccccc;
+	background-color: #A0988C;
 	width: 20%;
 	padding-bottom: 20%;
 	margin: 10px;
@@ -81,7 +81,7 @@ img {
 }
 
 #about {
-	background-color: #cccccc;
+	background-color: #A0988C;
 	width:10%;
 	padding-bottom: 10%;
 	margin: 10px;
@@ -89,7 +89,7 @@ img {
 }
 
 #skills {
-	background-color: #cccccc;
+	background-color: #A0988C;
 	width:10%;
 	padding-bottom: 10%;
 	margin: 10px;
@@ -97,7 +97,7 @@ img {
 }
 
 #portfolio {
-	background-color: #cccccc;
+	background-color: #A0988C;
 	width: 30%;
 	padding-bottom: 30%;
 	margin: 10px;
