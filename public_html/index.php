@@ -16,23 +16,29 @@
 	</head>
 
 	<body>
-
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<ul class="navbar-left">
-				<li>welcome</li>
-				<li>portfolio</li>
-				<li>skills</li>
-			</ul>
-
+		<div class="container">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 				<a class="navbar-brand" id="logo" href="#">NOEL < <span class="fa fa-magic"></span> > DEVELOPS</span></a>
+			</div>
 
-			<ul class="navbar-right">
-				<li>about</li>
-				<li>links</li>
-				<li>contact</li>
-			</ul>
-
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="navbar-left"><a href="#">Home</a></li>
+					<li class="navbar-left"><a href="#about">About</a></li>
+					<li class="navbar-left"><a href="#skills">Skills</a></li>
+					<li class="navbar-right"><a href="#portfolio">Portfolio</a></li>
+					<li class="navbar-right"><a href="#links">Links</a></li>
+					<li class="navbar-right"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
 		</nav>
+		</div>
 		<container class="container-fluid">
 		<div class="row">
 			<div class="col-md-1"></div>
@@ -45,42 +51,46 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6 col-md-1" id="about">
-				<div class="content">
-					<div class="table">
-						<div class="table-cell">
-							<p>About</p>
+			<div class="row">
+				<div class="col-xs-3 col-md-3" id="about">
+					<div class="content">
+						<div class="table">
+							<div class="table-cell">
+								<p>About</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-xs-6 col-md-1" id="skills">
-				<div class="content">
-					<div class="table">
-						<div class="table-cell">
-							<p>Skills</p>
+				<div class="col-xs-6 col-md-3" id="contact">
+					<div class="content">
+						<div class="table">
+							<div class="table-cell">
+								<p>Contact Me</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-				<div class="col-xs-12 col-md-2" id="contact">
-				<div class="content">
-					<div class="table">
-						<div class="table-cell">
-							<p>Contact Me</p>
+				<div class="col-xs-3 col-md-6" id="skills">
+					<div class="content">
+						<div class="table">
+							<div class="table-cell">
+								<p>Skills</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-xs-6 col-md-3" id="portfolio">
-				<div class="content">
-					<div class="table">
-						<div class="table-cell">
-							<p>Work & Play</p>
+				<div class="row">
+					<div class="col-xs-6 col-md-6" id="portfolio">
+						<div class="content">
+							<div class="table">
+								<div class="table-cell">
+									<p>Work & Play</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> <!-- row inside row-->
 
 			<div class="col-md-1"></div>
 		</div>
