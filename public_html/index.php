@@ -90,9 +90,27 @@
 						</div>
 					</div>
 				</div>
-			</div> <!-- row inside row-->
-
-			<div class="col-md-1"></div>
+				<div class="col-md-1"></div>
+			</div> <!-- original row inside row-->
+		</div>
+		<div class="row">
+			<div class="col-md-4 portfolio"></div>
+			<div class="col-md-4" id="portfolio-text">
+				<h2>WORK & PLAY</h2>
+				<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
+				<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz sizzle check it out. Uhuh ... yih! </p>
+				<p>Rizzle a bow wow wow crazy mi dang ass. Curabitur yo gangster ipsizzle. Fo shizzle habitant morbi rizzle senectus et netizzle izzle we gonna chung fames izzle brizzle pot. In est. Curabitizzle elementum. Ut eros felis, dope sure, pimpin' izzle, gangster pulvinizzle, i'm in the shizzle. Nulla sagittizzle gravida velit.</p>
+			</div>
+			<div class="col-md-4 portfolio"></div>
+		</div> <!--end portfolio row-->
+		<div class="row" id="about-img">
+			<div class="col-md-4 col-md-offset-2 about-text">
+				<h2>Nice to Meet You...</h2>
+				<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
+				<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz sizzle check it out. Uhuh ... yih! </p>
+				<p>Rizzle a bow wow wow crazy mi dang ass. Curabitur yo gangster ipsizzle. Fo shizzle habitant morbi rizzle senectus et netizzle izzle we gonna chung fames izzle brizzle pot. In est. Curabitizzle elementum. Ut eros felis, dope sure, pimpin' izzle, gangster pulvinizzle, i'm in the shizzle. Nulla sagittizzle gravida velit.</p>
+			</div>
+			<div class="col-md-6"></div>
 		</div>
 		</container>
 	</body>

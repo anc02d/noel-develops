@@ -92,7 +92,7 @@ img {
 	vertical-align: middle;
 	color: crimson;
 	font-weight: bold;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Karma', serif;
 	font-size: 3rem;
 	text-shadow: 1px 2px antiquewhite;
 }
@@ -139,4 +139,35 @@ img {
 	vertical-align: middle;
 	height: 100%;
 	width: 100%;
+}
+
+.portfolio {
+	background-color: #A0988C;
+	border: 2px crimson;
+	border-radius: 5px;
+	width: 30%;
+	padding-bottom: 30%;
+}
+
+#portfolio-text {
+	color: white;
+	font-family: 'Karma', serif;
+}
+#portfolio-text h2 {
+	text-align: center;
+}
+
+.about-text {
+	color: white;
+	font-family: 'Karma', serif;
+	font-size: larger;
+	text-align: justify;
+	text-shadow: 1px 2px cadetblue;
+	padding: 15px;
+}
+#about-img {
+	background: url("../images/desk-scene copy.jpg") no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 600px;
 }
