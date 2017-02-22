@@ -16,20 +16,28 @@
 	</head>
 
 	<body>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">NOEL < <span class="fa fa-magic"></span> > DEVELOPS</span></a>
+			</div>
 
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<ul class="navbar-left">
-				<li>welcome</li>
-				<li>portfolio</li>
-				<li>skills</li>
-			</ul>
-
-			<a class="navbar-brand" id="logo" href="#">noel < <span class="fa fa-magic"></span> > develops</span></a>
-
-			<ul class="navbar-right">
-				<li>about</li>
-				<li>links</li>
-				<li>contact</li>
-			</ul>
-
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="navbar-left"><a href="#">Home</a></li>
+					<li class="navbar-left"><a href="#about">About</a></li>
+					<li class="navbar-left"><a href="#skills">Skills</a></li>
+					<li class="navbar-right"><a href="#portfolio">Portfolio</a></li>
+					<li class="navbar-right"><a href="#links">Links</a></li>
+					<li class="navbar-right"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
 		</nav>
+
+
+
+	</body>
