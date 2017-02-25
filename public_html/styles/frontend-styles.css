@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300|Rokkitt|Karma');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300|Poiret+One|Amiko');
 
 @media (min-width: 768px) {
 	.navbar-nav {
@@ -31,16 +31,16 @@
 	color: white;
 	background-color: black;
 	margin: 0px auto;
+	/*padding-bottom: 5%;*/
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: white;
-	font-family: 'Karma', serif !important;
+	color: whitesmoke;
+	font-family: 'Amiko', sans-serif !important;
 	font-size: 2rem;
 }
 
 li:hover {
-	color: white;
 	background-color: crimson;
 	border: 2px solid crimson;
 	border-radius: 5px;
@@ -52,18 +52,21 @@ li:hover {
 	left: 0;
 	text-align: center;
 	margin:0 auto;
+	/*padding: 2%;*/
 }
 
 #logo {
-	color: white;
-	font-family: 'Poppins', sans-serif;
-	font-size: 3rem;
+	color: paleturquoise;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 5rem;
+
 }
 
-#logo:hover {
-	color: crimson;
+/*#logo:hover {*/
+	/*color: whitesmoke;*/
+	/*background-color: darkgreen;*/
 	/*background-color: crimson;*/
-}
+/*}*/
 
 body {
 	padding-top: 65px;
@@ -71,21 +74,21 @@ body {
 }
 
 #welcome {
-	background-color: #A0988C;
+	background-color: whitesmoke;
 	width: 64%;
 	padding-bottom: 64%;
 	margin: 10px;
 }
 
 #portfolio-home-div {
-	background-color: #A0988C;
+	background-color: whitesmoke;
 	width: 32%;
 	padding-bottom: 32%;
 	margin: 10px;
 }
 
 #contact {
-	background-color: #A0988C;
+	background-color: whitesmoke;
 	width: 21%;
 	padding-bottom: 21%;
 	margin: 10px;
@@ -93,7 +96,7 @@ body {
 }
 
 #about {
-	background-color: #A0988C;
+	background-color: whitesmoke;
 	width:9%;
 	padding-bottom: 9%;
 	margin: 10px;
@@ -102,7 +105,7 @@ body {
 }
 
 #skills {
-	background-color: #A0988C;
+	background-color: whitesmoke;
 	width:9%;
 	padding-bottom: 9%;
 	margin: 10px;
@@ -131,9 +134,9 @@ body {
 	/*vertical-align: middle;*/
 	color: crimson;
 	font-weight: bold;
-	font-family: 'Karma', serif;
+	font-family: 'Amiko', sans-serif;
 	font-size: 3rem;
-	text-shadow: 1px 2px antiquewhite;
+	text-shadow: 1px 2px whitesmoke;
 }
 /** now we are moving to the portfolio section of my site**/
 #portfolio-container {
@@ -142,7 +145,7 @@ body {
 }
 
 .portfolio-img-div {
-	background-color: #A0988C;
+	background-color: whitesmoke;
 	border: 2px crimson;
 	border-radius: 5px;
 	width: 30%;
@@ -152,7 +155,7 @@ body {
 
 #portfolio-text {
 	color: cadetblue;
-	font-family: 'Karma', serif;
+	font-family: 'Amiko', serif;
 }
 #portfolio-text h2 {
 	text-align: center;
@@ -168,7 +171,7 @@ body {
 
 #about-text {
 	color: white;
-	font-family: 'Karma', serif;
+	font-family: 'Amiko', serif;
 	font-size: 2rem;
 	text-align: justify;
 	/*text-shadow: 1px 2px cadetblue;*/
