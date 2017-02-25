@@ -17,14 +17,16 @@
 
 	<body>
 		<div class="container">
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" id="logo" href="#">NOEL < <span class="fa fa-magic"></span> > DEVELOPS</span></a>
+				<a class="navbar-brand" id="logo" href="#">NOEL < |
+<!--					<span class="fa fa-magic"></span> -->
+					> DEVELOPS</span></a>
 			</div>
 
 			<div class="navbar-collapse collapse">
@@ -39,10 +41,10 @@
 			</div>
 		</nav>
 		</div>
-		<container class="container-fluid">
+
+		<div class="container-fluid" id="welcome-page">
 		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-xs-12 col-md-5" id="welcome">
+			<div class="col-md-8" id="welcome">
 				<div class="content">
 					<div class="table">
 						<div class="table-cell">
@@ -51,8 +53,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-3 col-md-3" id="about">
+			<div class="col-md-4" id="portfolio-home-div">
+				<div class="content">
+					<div class="table">
+						<div class="table-cell">
+							<p>Work & Play</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row"><!--contains about, skills, contact boxes-->
+				<div class="col-md-12" id="about">
 					<div class="content">
 						<div class="table">
 							<div class="table-cell">
@@ -61,7 +72,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-md-3" id="contact">
+				<div class="col-md-6" id="contact">
 					<div class="content">
 						<div class="table">
 							<div class="table-cell">
@@ -70,7 +81,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3 col-md-6" id="skills">
+				<div class="col-md-12" id="skills">
 					<div class="content">
 						<div class="table">
 							<div class="table-cell">
@@ -79,32 +90,24 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-xs-6 col-md-6" id="portfolio">
-						<div class="content">
-							<div class="table">
-								<div class="table-cell">
-									<p>Work & Play</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-1"></div>
-			</div> <!-- original row inside row-->
-		</div>
+			</div> <!--end row inside of col-md-5 -->
+		</div> <!--end main welcome page row-->
+	</div><!--end welcome page section container-->
+	<div class="container-fluid" id="portfolio-container">
 		<div class="row">
-			<div class="col-md-4 portfolio"></div>
+			<div class="col-md-4 col-md-offset-1 portfolio-img-div"></div>
 			<div class="col-md-4" id="portfolio-text">
 				<h2>WORK & PLAY</h2>
 				<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
 				<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz sizzle check it out. Uhuh ... yih! </p>
 				<p>Rizzle a bow wow wow crazy mi dang ass. Curabitur yo gangster ipsizzle. Fo shizzle habitant morbi rizzle senectus et netizzle izzle we gonna chung fames izzle brizzle pot. In est. Curabitizzle elementum. Ut eros felis, dope sure, pimpin' izzle, gangster pulvinizzle, i'm in the shizzle. Nulla sagittizzle gravida velit.</p>
 			</div>
-			<div class="col-md-4 portfolio"></div>
-		</div> <!--end portfolio row-->
+			<div class="col-md-4 col-md-offset-1 portfolio-img-div"></div>
+		</div>
+	</div><!--end portfolio container -->
+	<div class="container-fluid" id="about-section">
 		<div class="row" id="about-img">
-			<div class="col-md-4 col-md-offset-2 about-text">
+			<div class="col-md-4 col-md-offset-2" id="about-text">
 				<h2>Nice to Meet You...</h2>
 				<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
 				<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz sizzle check it out. Uhuh ... yih! </p>
@@ -112,6 +115,6 @@
 			</div>
 			<div class="col-md-6"></div>
 		</div>
-		</container>
+		</div>
 	</body>
 </html>
