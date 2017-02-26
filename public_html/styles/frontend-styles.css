@@ -1,49 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300|Poiret+One|Amiko');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300|Josefin+Slab|Open+Sans+Condensed:300');
 
 @media (min-width: 768px) {
 	.navbar-nav {
 		width: 100%;
 		text-align: center;
 	}
+
 	.navbar-nav > li {
 		float: none;
 		display: inline-block;
 	}
+
 	.navbar-nav > li.navbar-right {
 		float: right !important;
 	}
+
 	.navbar-brand {
 		font-size: 2rem;
+	}
+}
+
+@media (min-width: 1100px) {
+	.navbar-brand {
+		font-size: 1rem;
 	}
 }
 
 .navbar-right {
 	color: white;
 	padding: 0 2%;
-	}
+}
 
 .navbar-left {
 	color: white;
 	padding: 0 2%;
-	}
+}
 
 .navbar-fixed-top {
 	color: white;
 	background-color: black;
-	margin: 0px auto;
-	/*padding-bottom: 5%;*/
+	margin: 0 auto;
+	padding: 1%;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: whitesmoke;
-	font-family: 'Amiko', sans-serif !important;
+	font-family: 'Open Sans Condensed', sans-serif !important;
 	font-size: 2rem;
 }
 
-li:hover {
-	background-color: crimson;
-	border: 2px solid crimson;
-	border-radius: 5px;
+li > a:hover {
+	color: black;
+	background-color: white;
+	border: 1px solid #FF00FF;
+	border-radius: 0px;
 }
 
 .navbar-brand {
@@ -51,72 +61,55 @@ li:hover {
 	width: 100%;
 	left: 0;
 	text-align: center;
-	margin:0 auto;
+	margin: 0 auto;
 	/*padding: 2%;*/
 }
 
 #logo {
-	color: paleturquoise;
-	font-family: 'Poiret One', sans-serif;
-	font-size: 5rem;
-
+	color: white;
+	font-family: 'Josefin Slab', sans-serif;
+	font-size: 3rem;
 }
 
-/*#logo:hover {*/
-	/*color: whitesmoke;*/
-	/*background-color: darkgreen;*/
-	/*background-color: crimson;*/
-/*}*/
+#logo:hover {
+color: #FF00FF;
+/*background-color: #ccc;*/
+}
 
 body {
 	padding-top: 65px;
 	background-color: #000;
 }
-
+#welcome-section {
+	position: relative;
+}
 #welcome {
-	background-color: whitesmoke;
-	width: 64%;
-	padding-bottom: 64%;
-	margin: 10px;
+	background: url("../images/desk-scene-color.jpg") no-repeat center center;
+	background-size: 100%;
+	padding-bottom: 60%;
+	margin: 10px 10px 10px 30px;
 }
 
 #portfolio-home-div {
-	background-color: whitesmoke;
-	width: 32%;
-	padding-bottom: 32%;
-	margin: 10px;
+	background: url("../images/typing.gif") no-repeat center center;
+	padding-bottom: 30%;
+	margin: 13px 10px 13px;
 }
 
 #contact {
 	background-color: whitesmoke;
-	width: 21%;
-	padding-bottom: 21%;
-	margin: 10px;
-	/*float: right;*/
-}
-
-#about {
-	background-color: whitesmoke;
-	width:9%;
-	padding-bottom: 9%;
+	padding-bottom: 28%;
 	margin: 10px;
 	position: relative;
-	clear: right;
-}
-
-#skills {
-	background-color: whitesmoke;
-	width:9%;
-	padding-bottom: 9%;
-	margin: 10px;
 }
 
 /*the following text centering done using suggestions from http://stackoverflow.com/questions/20456694/grid-of-responsive-squares */
-.table{
-	display:table;
-	height:100%;
-	width:100%;
+.table {
+	display: table;
+	height: 100%;
+	width: 100%;
 }
+
 .table-cell {
 	display: table-cell;
 	vertical-align: middle;
@@ -124,29 +117,36 @@ body {
 	width: 100%;
 }
 
-/*this .content class will probably be replaced with seperate for sizes?*/
+/*this .content class can be replaced with separate for sizes?*/
 .content {
 	position: absolute;
-	height:90%;
-	width:90%;
+	height: 80%;
+	width: 100%;
 	/*padding: 5% 5%;*/
-	text-align: center;
+	/*text-align: center;*/
 	/*vertical-align: middle;*/
-	color: crimson;
-	font-weight: bold;
-	font-family: 'Amiko', sans-serif;
-	font-size: 3rem;
-	text-shadow: 1px 2px whitesmoke;
 }
+.content p {
+	color: #FF00FF;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0 0 10%;
+	font-weight: bold;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Poppins', Serif;
+	font-size: 3rem;
+	text-shadow: 1px 2px 2px #000;
+}
+
+
 /** now we are moving to the portfolio section of my site**/
-#portfolio-container {
+#portfolio-section {
 	background-color: white;
 	padding: 50px;
 }
 
 .portfolio-img-div {
 	background-color: whitesmoke;
-	border: 2px crimson;
+	border: 2px #FF00FF;
 	border-radius: 5px;
 	width: 30%;
 	padding-bottom: 30%;
@@ -154,27 +154,63 @@ body {
 }
 
 #portfolio-text {
-	color: cadetblue;
-	font-family: 'Amiko', serif;
-}
-#portfolio-text h2 {
-	text-align: center;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#about-img {
-	background: url("../images/desk-scene copy.jpg") no-repeat;
-	opacity: 0.6;
-	background-position: center center;
-	width: 100%;
+#portfolio-text h2 {
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+}
+
+/*the about me section*/
+#about-section {
+	background-color: white;
+	background: url("../images/desert-background-light.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	height: 600px;
 }
 
 #about-text {
-	color: white;
-	font-family: 'Amiko', serif;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-shadow: 1px 2px 2px rgba(255, 119, 225, 0.7);
 	font-size: 2rem;
 	text-align: justify;
-	/*text-shadow: 1px 2px cadetblue;*/
 	padding: 15px;
-	opacity: 1.0; !important;
+	overflow: hidden;
+}
+#about-text > h2 {
+	font-family: 'Josefin Slab', sans-serif;
+	font-weight: bold;
+}
+
+/*this is the contact form starting with the way I hide it */
+.reveal {
+	background-color: #000;
+	position: relative;
+	z-index: 2;
+}
+
+footer {
+	padding: -20px 0;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	position: fixed;
+	bottom: 0;
+	left: 50px;
+	right: 0;
+	z-index: 1;
+}
+#contact-section > h2 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 2em;
+}
+#contact-section > p {
+	font-family: 'Open Sans Condensed', sans-serif;
 }

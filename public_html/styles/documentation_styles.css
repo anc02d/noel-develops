@@ -5,6 +5,7 @@ h1 {
 	text-align: center;
 	background-color: darkgray;
 }
+
 p {
 	font-family: 'Lora', serif;
 }
@@ -21,9 +22,9 @@ p {
 	float: left;
 }
 
- img {
-	 border: 1px solid black;
- }
+img {
+	border: 1px solid black;
+}
 
 .desc {
 	padding: 15px;
