@@ -38,7 +38,7 @@
 
 .navbar-fixed-top {
 	color: white;
-	background-color: black;
+	background-color: #000;
 	margin: 0 auto;
 	padding: 1%;
 }
@@ -52,7 +52,7 @@
 li > a:hover {
 	color: black;
 	background-color: white;
-	border: 1px solid #FF00FF;
+	border: 1px solid #ffd94c;
 	border-radius: 0px;
 }
 
@@ -72,7 +72,7 @@ li > a:hover {
 }
 
 #logo:hover {
-color: #FF00FF;
+color: #ffd94c;
 /*background-color: #ccc;*/
 }
 
@@ -98,9 +98,11 @@ body {
 
 #contact {
 	background-color: whitesmoke;
-	padding-bottom: 28%;
+	padding-bottom: 20%;
 	margin: 10px;
 	position: relative;
+	border: 1px solid whitesmoke;
+	border-radius: 100px;
 }
 
 /*the following text centering done using suggestions from http://stackoverflow.com/questions/20456694/grid-of-responsive-squares */
@@ -127,12 +129,12 @@ body {
 	/*vertical-align: middle;*/
 }
 .content p {
-	color: #FF00FF;
+	color: #ffd94c;
 	background: rgba(0, 0, 0, 0.5);
-	padding: 0 0 10%;
+	padding: 2% 7% 10%;
 	font-weight: bold;
 	/*font-family: 'Open Sans Condensed', sans-serif;*/
-	font-family: 'Poppins', Serif;
+	font-family: 'Josefin Slab', Serif;
 	font-size: 3rem;
 	text-shadow: 1px 2px 2px #000;
 }
@@ -148,14 +150,17 @@ body {
 	background-color: whitesmoke;
 	border: 2px #FF00FF;
 	border-radius: 5px;
-	width: 30%;
+	/*width: 30%;*/
 	padding-bottom: 30%;
-	margin: 20px 10px;
+	/*margin: 20px 10px;*/
 }
 
 #portfolio-text {
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: justify;
+	position: relative;
+	vertical-align: middle;
 }
 
 #portfolio-text h2 {
