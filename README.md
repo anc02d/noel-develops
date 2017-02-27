@@ -45,3 +45,6 @@ Your CSS is nearly perfect, but you don't need to include the div. before the el
 
 
 ### Fantastic job on Milestone 2a. You've passed in tier IV. Keep it up!
+
+## Milestone 2btea; Feedback
+Excellent work so far! Your Milestone 2&beta; passes at Tier IV. Detailed notes sent via Slack.
