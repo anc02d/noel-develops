@@ -49,7 +49,7 @@
 				<div class="col-xs-12 col-md-8">
 					<div class="welcome-box">
 						<div class="homepage-box-text">
-								<h3>Hey there</h3>
+								<h3>Hey there, thanks for visiting my site</h3>
 						</div>
 					</div>
 				</div>
@@ -95,15 +95,14 @@
 		</div><!--end welcome page section container-->
 		<div class="container-fluid" id="portfolio-section">
 			<div class="row">
-				<div class="col-xs-12 col-md-3 portfolio-img-div"></div>
-				<div class="col-xs-12 col-md-3 portfolio-img-div"></div>
-				<div class="col-xs-12 col-md-3" id="portfolio-text">
+				<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
+				<div class="col-xs-12 col-md-4" id="portfolio-text">
 					<h2>WORK & PLAY</h2>
 					<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle.	Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
 					<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz sizzle check it out. Uhuh ... yih! </p>
 					<p>Rizzle a bow wow wow crazy mi dang ass. Curabitur yo gangster ipsizzle. Fo shizzle habitant morbirizzle senectus et netizzle izzle we gonna chung fames izzle brizzle pot. In est. Curabitizzle elementum. Ut eros felis, dope sure, pimpin' izzle, gangster pulvinizzle, i'm in the shizzle. Nulla sagittizzle gravida velit.</p>
 				</div>
-				<div class="col-xs-12 col-md-3 portfolio-img-div"></div>
+				<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 			</div>
 		</div><!--end portfolio container -->
 		<div class="container-fluid" id="about-section">
@@ -134,7 +133,7 @@
 					<div class="form-group">
 						<label for="formInputEmail">Email address
 						</label>
-						<input type="email" class="form-control" id="formInputEmail" placeholder="myemail@mysite.com">
+						<input type="email" class="form-control" id="formInputEmail" placeholder="youremail@yoursite.com">
 					</div>
 					<div class="form-group">
 						<label for="formInputName">Name &/or Company

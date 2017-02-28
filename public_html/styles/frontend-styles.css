@@ -128,7 +128,7 @@ color: #ffd94c;
 }
 
 .welcome-box {
-	background: url("../images/desk-scene-color.jpg") no-repeat center center;
+	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
 	background-size: 100%;
 	min-height: 600px;
 	/*margin: 10px 10px 10px 10px;*/
@@ -136,7 +136,7 @@ color: #ffd94c;
 }
 
 .portfolio-box {
-	background: url("../images/typing.gif") no-repeat center center;
+	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
 	background-size: 100%;
 	min-height: 300px;
 	/*margin: 10px 10px 10px 10px;*/
@@ -179,8 +179,7 @@ color: #ffd94c;
 	border: 2px #FF00FF;
 	border-radius: 5px;
 	/*width: 30%;*/
-	padding-bottom: 30%;
-	/*margin: 20px 10px;*/
+	padding-bottom: 33%;
 }
 
 #portfolio-text {
@@ -229,11 +228,11 @@ color: #ffd94c;
 }
 
 footer {
-	padding: -20px 0;
+	padding: 80px 0;
 	background-color: #000;
 	color: #fff;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 2em;
+	/*font-size: 2em;*/
 	position: fixed;
 	bottom: 0;
 	left: 50px;
