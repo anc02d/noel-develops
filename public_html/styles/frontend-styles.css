@@ -26,6 +26,9 @@
 	}
 }
 
+.navbar-toggle {
+	z-index: 999;
+}
 .navbar-right {
 	color: white;
 	padding: 0 2%;
@@ -48,7 +51,7 @@
 	font-family: 'Open Sans Condensed', sans-serif !important;
 	font-size: 2rem;
 }
-
+/*css3 generator animations*/
 li > a:hover {
 	color: black;
 	background-color: white;
