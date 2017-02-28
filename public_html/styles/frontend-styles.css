@@ -52,7 +52,12 @@
 	font-size: 2rem;
 }
 /*css3 generator animations*/
-li > a:hover {
+
+.navbar-nav li > a:link {
+	border: 1px solid transparent;
+}
+
+.navbar-nav li > a:hover {
 	color: black;
 	background-color: white;
 	border: 1px solid #ffd94c;
