@@ -16,6 +16,8 @@ p {
 
 h1, h2, h3 {
 	font-family: 'Josefin Slab', serif;
+	color: #ffd94c;
+	text-shadow: 1px 1px 2px #000;
 }
 
 
@@ -107,45 +109,58 @@ h1, h2, h3 {
 
 #logo:hover {
 color: #ffd94c;
-/*background-color: #ccc;*/
 }
 
 /******************************************
 * homepage/welcome page layout and style
 ********************************************/
 .homepage-box-text {
-	color: #ffd94c;
 	background: rgba(0, 0, 0, 0.5);
-	height: 80%;
-	width: 100%;
+	align-self: center;
+	flex: 1 0 auto;
 	padding: 5% 5%;
-	text-align: center;
 	vertical-align: middle;
-	text-shadow: 1px 2px 2px #000;
-	font-weight: bold;
 }
 
 .welcome-box {
 	background: url("../images/desk-scene-color.jpg") no-repeat center center;
 	background-size: 100%;
-	padding-bottom: 60%;
-	margin: 10px 10px 10px 30px;
+	min-height: 600px;
+	/*margin: 10px 10px 10px 10px;*/
+	display: flex;
 }
 
 .portfolio-box {
 	background: url("../images/typing.gif") no-repeat center center;
-	padding-bottom: 30%;
-	margin: 13px 10px 13px;
+	background-size: 100%;
+	min-height: 300px;
+	/*margin: 10px 10px 10px 10px;*/
+	display: flex;
 }
 
 .contact-box {
-	background-color: whitesmoke;
-	padding-bottom: 20%;
-	margin: 10px;
-	position: relative;
-	border: 1px solid whitesmoke;
+	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	background-size: 100%;
+	min-height: 300px;
+	/*margin: 10px 10px 10px 10px;*/
+	display: flex;
 }
 
+.about-box {
+	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	background-size: 100%;
+	min-height: 150px;
+	/*margin: 10px 10px 10px 10px;*/
+	display: flex;
+}
+
+.skills-box {
+	 background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	 background-size: 100%;
+	 min-height: 150px;
+	 /*margin: 10px 10px 10px 10px;*/
+	 display: flex;
+ }
 /*************************************************
  ** now we are moving to the portfolio section of my site
  **********************************************************/
@@ -190,7 +205,7 @@ color: #ffd94c;
 #about-text {
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
-	text-shadow: 1px 2px 2px rgba(255, 119, 225, 0.7);
+	text-shadow: 1px 2px 2px #ffd94c;
 	font-size: 2rem;
 	text-align: justify;
 	padding: 15px;
@@ -201,7 +216,9 @@ color: #ffd94c;
 	font-weight: bold;
 }
 
-/*this is the contact form starting with the way I hide it */
+/************************************************************
+** this is the contact form starting with the way I hide it
+**************************************************************/
 .reveal {
 	background-color: #000;
 	position: relative;
@@ -219,11 +236,4 @@ footer {
 	left: 50px;
 	right: 0;
 	z-index: 1;
-}
-#contact-section > h2 {
-	font-family: 'Josefin Slab', serif;
-	font-size: 2em;
-}
-#contact-section > p {
-	font-family: 'Open Sans Condensed', sans-serif;
 }
