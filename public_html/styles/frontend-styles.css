@@ -1,7 +1,7 @@
 /******************************************
 ***   import google fonts
 *******************************************/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300|Josefin+Slab|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300|Merriweather|Open+Sans');
 
 /******************************************
 ***   general style guidelines
@@ -12,11 +12,11 @@ body {
 }
 
 p {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3 {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Merriweather', serif;
 	color: #ffd94c;
 	text-shadow: 1px 1px 2px #000;
 }
@@ -73,7 +73,7 @@ h1, h2, h3 {
 
 .navbar-nav > li > a {
 	color: whitesmoke;
-	font-family: 'Open Sans Condensed', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 	font-size: 2rem;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
@@ -104,7 +104,7 @@ h1, h2, h3 {
 
 #logo {
 	color: white;
-	font-family: 'Josefin Slab', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-size: 3rem;
 }
 
@@ -119,8 +119,11 @@ color: #ffd94c;
 	background: rgba(0, 0, 0, 0.5);
 	align-self: center;
 	flex: 1 0 auto;
-	padding: 5% 5%;
-	vertical-align: middle;
+	padding: 2%;
+	justify-content: flex-start;
+}
+.homepage-box-text > h3 {
+	font-size: 3rem;
 }
 
 #welcome-section {
@@ -136,15 +139,19 @@ color: #ffd94c;
 }
 
 .portfolio-box {
-	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	/*background: url("../images/desk-scene-color.jpg") no-repeat center center;*/
+	background-color: #fff;
 	background-size: 100%;
+	border: 2px solid #ffd94c;
 	min-height: 300px;
 	/*margin: 10px 10px 10px 10px;*/
 	display: flex;
 }
 
 .contact-box {
-	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	background-color: #fff;
+	border: 2px solid #ffd94c;
 	background-size: 100%;
 	min-height: 300px;
 	/*margin: 10px 10px 10px 10px;*/
@@ -152,7 +159,9 @@ color: #ffd94c;
 }
 
 .about-box {
-	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	background-color: #fff;
+	border: 2px solid #ffd94c;
 	background-size: 100%;
 	min-height: 150px;
 	/*margin: 10px 10px 10px 10px;*/
@@ -160,7 +169,9 @@ color: #ffd94c;
 }
 
 .skills-box {
-	 background: url("../images/desk-scene-bw.jpg") no-repeat center center;
+	 /*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	background-color: #fff;
+	border: 2px solid #ffd94c;
 	 background-size: 100%;
 	 min-height: 150px;
 	 /*margin: 10px 10px 10px 10px;*/
@@ -176,7 +187,6 @@ color: #ffd94c;
 
 .portfolio-img-div {
 	background-color: whitesmoke;
-	border: 2px #FF00FF;
 	border-radius: 5px;
 	/*width: 30%;*/
 	padding-bottom: 33%;
@@ -193,7 +203,9 @@ color: #ffd94c;
 	text-align: center;
 }
 
-/*the about me section*/
+/************************************************
+** the about me section
+**************************************************/
 #about-section {
 	background-color: white;
 	background: url("../images/desert-background-light.jpg") no-repeat center center;
@@ -206,15 +218,16 @@ color: #ffd94c;
 
 #about-text {
 	color: black;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-shadow: 1px 2px 2px #ffd94c;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	/*text-shadow: 1px 2px 2px #ffd94c;*/
 	font-size: 2rem;
 	text-align: justify;
-	padding: 15px;
+	padding: 0 0 15px 0;
 	overflow: hidden;
 }
 #about-text > h2 {
-	font-family: 'Josefin Slab', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: bold;
 }
 
@@ -231,7 +244,7 @@ footer {
 	padding: 80px 0;
 	background-color: #000;
 	color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	/*font-size: 2em;*/
 	position: fixed;
 	bottom: 0;
