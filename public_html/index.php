@@ -48,23 +48,47 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-8">
 					<div class="welcome-box">
-						<div class="welcome-text">
+						<div class="homepage-box-text">
 								<h3>Hey there</h3>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4" id="portfolio-home-div">
 					<div class="row">
-						<div class="col-md-12">Portfolio</div>
+						<div class="col-md-12">
+							<div class="portfolio-box">
+								<div class="homepage-box-text">
+									<h3>Portfolio</h3>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row">
-								<div class="col-md-12">About</div>
-								<div class="col-md-12">Skills</div>
+								<div class="col-md-12">
+									<div class="about-box">
+										<div class="homepage-box-text">
+											<h3>About</h3>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="skills-box">
+										<div class="homepage-box-text">
+											<h3>Skills</h3>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-6">Contact</div>
+						<div class="col-md-6">
+							<div class="contact-box">
+								<div class="homepage-box-text">
+									<h3>Contact</h3>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div> <!--end main welcome page row-->

@@ -113,22 +113,19 @@ color: #ffd94c;
 /******************************************
 * homepage/welcome page layout and style
 ********************************************/
-
-#welcome-section {
-	position: relative;
+.homepage-box-text {
+	color: #ffd94c;
+	background: rgba(0, 0, 0, 0.5);
 }
+
 .welcome-box {
 	background: url("../images/desk-scene-color.jpg") no-repeat center center;
 	background-size: 100%;
 	padding-bottom: 60%;
 	margin: 10px 10px 10px 30px;
 }
-.welcome-text {
-	color: #ffd94c;
-	background: rgba(0, 0, 0, 0.5);
-}
 
-#portfolio-home-div {
+.portfolio-box {
 	background: url("../images/typing.gif") no-repeat center center;
 	padding-bottom: 30%;
 	margin: 13px 10px 13px;
