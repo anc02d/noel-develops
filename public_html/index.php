@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<!--Bootstrap Stylesheet from CDN-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -44,33 +46,27 @@
 <div class="container-fluid reveal" style="margin-bottom: 498px;">
 		<div class="container-fluid" id="welcome-section">
 			<div class="row">
-				<div class="col-xs-12 col-md-7 col-md-offset-1" id="welcome">
-					<div class="content">
-						<div class="table">
-							<div class="table-cell">
-								<p>HEY FRIEND</p>
-							</div>
+				<div class="col-xs-12 col-md-8">
+					<div class="welcome-box">
+						<div class="welcome-text">
+								<h3>Hey there</h3>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4" id="portfolio-home-div">
-					<div class="content">
-						<div class="table">
-							<div class="table-cell">
-								<p>WORK & PLAY</p>
+					<div class="row">
+						<div class="col-md-12">Portfolio</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">About</div>
+								<div class="col-md-12">Skills</div>
 							</div>
 						</div>
+						<div class="col-md-6">Contact</div>
 					</div>
 				</div>
-					<div class="col-xs-12 col-md-4" id="contact">
-						<div class="content">
-							<div class="table">
-								<div class="table-cell">
-									<p>CONTACT NOEL</p>
-								</div>
-							</div>
-						</div>
-					</div>
 			</div> <!--end main welcome page row-->
 		</div><!--end welcome page section container-->
 		<div class="container-fluid" id="portfolio-section">

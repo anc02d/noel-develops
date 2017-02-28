@@ -1,5 +1,27 @@
+/******************************************
+***   import google fonts
+*******************************************/
 @import url('https://fonts.googleapis.com/css?family=Poppins:300|Josefin+Slab|Open+Sans+Condensed:300');
 
+/******************************************
+***   general style guidelines
+*******************************************/
+body {
+	padding-top: 65px;
+	background-color: #000;
+}
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Josefin Slab', serif;
+}
+
+
+/******************************************
+***   navbar style
+*******************************************/
 @media (min-width: 768px) {
 	.navbar-nav {
 		width: 100%;
@@ -46,12 +68,16 @@
 	padding: 1%;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-nav > li > a {
 	color: whitesmoke;
 	font-family: 'Open Sans Condensed', sans-serif !important;
 	font-size: 2rem;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
-/*css3 generator animations*/
 
 .navbar-nav li > a:link {
 	border: 1px solid transparent;
@@ -84,18 +110,22 @@ color: #ffd94c;
 /*background-color: #ccc;*/
 }
 
-body {
-	padding-top: 65px;
-	background-color: #000;
-}
+/******************************************
+* homepage/welcome page layout and style
+********************************************/
+
 #welcome-section {
 	position: relative;
 }
-#welcome {
+.welcome-box {
 	background: url("../images/desk-scene-color.jpg") no-repeat center center;
 	background-size: 100%;
 	padding-bottom: 60%;
 	margin: 10px 10px 10px 30px;
+}
+.welcome-text {
+	color: #ffd94c;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 #portfolio-home-div {

@@ -21,16 +21,35 @@
 	</head>
 
 	<body>
-		<div class="container-fluid" id="welcome-page">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					<img src="images/desert-bkgd.jpg" alt="desert background" class="img-responsive">
-					<h2>Hi. I'm Noel.</h2>
-					<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
+					<div class="hey-friend">
+						<div class="welcome-heading">
+							<h3>Hey Friend</h3>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4">
-
+					<div class="row">
+						<div class="col-xs-12">
+							col 4/12
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="row">
+								<div class="col-xs-12">12/12</div>
+								<div class="col-xs-12">12/12</div>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							col 6/6
+						</div>
+					</div>
 				</div>
+			</div>
+		</div>
 			</div>
 	</body>
 </html>
