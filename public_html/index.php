@@ -95,14 +95,15 @@
 		</div><!--end welcome page section container-->
 		<div class="container-fluid" id="portfolio-section">
 			<div class="row">
-				<div class="col-xs-12 col-md-3 col-md-offset-1 portfolio-img-div"></div>
+				<div class="col-xs-12 col-md-3 portfolio-img-div"></div>
+				<div class="col-xs-12 col-md-3 portfolio-img-div"></div>
 				<div class="col-xs-12 col-md-3" id="portfolio-text">
 					<h2>WORK & PLAY</h2>
-					<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, 	shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle.	Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
+					<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle, shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle tortizzle.	Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus dang. </p>
 					<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz sizzle check it out. Uhuh ... yih! </p>
 					<p>Rizzle a bow wow wow crazy mi dang ass. Curabitur yo gangster ipsizzle. Fo shizzle habitant morbirizzle senectus et netizzle izzle we gonna chung fames izzle brizzle pot. In est. Curabitizzle elementum. Ut eros felis, dope sure, pimpin' izzle, gangster pulvinizzle, i'm in the shizzle. Nulla sagittizzle gravida velit.</p>
 				</div>
-				<div class="col-xs-12 col-md-3 col-md-offset-1 portfolio-img-div"></div>
+				<div class="col-xs-12 col-md-3 portfolio-img-div"></div>
 			</div>
 		</div><!--end portfolio container -->
 		<div class="container-fluid" id="about-section">

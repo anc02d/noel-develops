@@ -7,9 +7,10 @@
 ***   general style guidelines
 *******************************************/
 body {
-	padding-top: 65px;
+	padding-top: 80px; /*to offset the fixed navbar*/
 	background-color: #000;
 }
+
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -122,6 +123,10 @@ color: #ffd94c;
 	vertical-align: middle;
 }
 
+#welcome-section {
+	background-color: white;
+}
+
 .welcome-box {
 	background: url("../images/desk-scene-color.jpg") no-repeat center center;
 	background-size: 100%;
@@ -165,7 +170,7 @@ color: #ffd94c;
  ** now we are moving to the portfolio section of my site
  **********************************************************/
 #portfolio-section {
-	background-color: white;
+	background-color: black;
 	padding: 50px;
 }
 
@@ -179,8 +184,7 @@ color: #ffd94c;
 }
 
 #portfolio-text {
-	color: black;
-	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
 	text-align: justify;
 	position: relative;
 	vertical-align: middle;
@@ -188,7 +192,6 @@ color: #ffd94c;
 
 #portfolio-text h2 {
 	text-align: center;
-	font-family: 'Josefin Slab', serif;
 }
 
 /*the about me section*/
