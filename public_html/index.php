@@ -109,6 +109,7 @@
 				<h2>Let's work together!</h2>
 				<p>Send me a message to get in touch.</p> <br/>
 				<div class="col-md-8 col-md-offset-2">
+					<form>
 					<div class="form-group">
 						<label for="formInputEmail">Email address
 						</label>
@@ -126,9 +127,7 @@
 					</div>
 					<button type="submit" class="btn btn-default">Submit</button>
 				</div>
-				<div class="col-md-4">
-
-				</div>
+				</form>
 			</div>
 		</footer>
 
