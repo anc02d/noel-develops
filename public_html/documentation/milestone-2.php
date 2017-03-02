@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../styles/documentation_styles.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/documentation_styles.css" type="text/css"/>
 		<title>PWP Milestone 2a</title>
 	</head>
 	<body>
