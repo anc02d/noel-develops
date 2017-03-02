@@ -159,6 +159,7 @@
 						</label>
 						<input type="text" maxlength="250" class="form-control" id="formInputMessage" placeholder="How can I help you?">
 					</div>
+						<div class="g-recaptcha" data-sitekey="6LdXbRcUAAAAAD8YqILaySEsGeARVv2DDCLkl3tE"></div>
 					<button type="submit" class="btn btn-default">Submit</button>
 				</div>
 				</form>
