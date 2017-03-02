@@ -143,7 +143,7 @@
 </div>
 		<footer>
 			<div class="row" id="contact-section">
-				<h2>Let's work together!</h2>
+				<h1>Let's work together!</h1>
 				<p>Send me a message to get in touch.</p> <br/>
 				<div class="col-xs-12 col-md-8 col-md-offset-2">
 					<form id="contact-form" action="php/mailer.php" method="post">

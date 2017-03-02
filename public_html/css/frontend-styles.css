@@ -1,7 +1,7 @@
 /******************************************
 ***   import google fonts
 *******************************************/
-@import url('https://fonts.googleapis.com/css?family=Neuton:400,700|Merriweather|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Merriweather|Open+Sans|Chonburi');
 
 /******************************************
 ***   general style guidelines         ***
@@ -12,11 +12,11 @@ body {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3 {
-	font-family: 'Neuton', serif;
+	font-family: 'Chonburi', serif;
 	color: #ffd94c;
 	text-shadow: 1px 1px 2px #000;
 }
@@ -104,7 +104,7 @@ h1, h2, h3 {
 
 #logo {
 	color: white;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Chonburi', serif;
 	font-size: 3rem;
 }
 
@@ -123,7 +123,7 @@ color: #ffd94c;
 	justify-content: flex-start;
 }
 .homepage-box-text > h3 {
-	font-size: 3rem;
+	/*font-size: 3rem;*/
 }
 
 #welcome-section {
@@ -213,18 +213,18 @@ color: #ffd94c;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 600px;
+	/*height: 600px;*/
 }
 
 #about-text {
 	color: black;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	/*text-shadow: 1px 2px 2px #ffd94c;*/
 	font-size: 2rem;
 	text-align: justify;
-	padding: 0 0 30px 0;
+	padding: 0 0 30px;
 	overflow: hidden;
+	vertical-align: middle;
 }
 #about-text > h2 {
 	font-family: 'Merriweather', sans-serif;

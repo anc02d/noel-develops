@@ -40,8 +40,8 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 
-	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+//	// attach the subject line to the message
+//	$swiftMessage->setSubject($subject);
 
 	/**
 	 * attach the actual message to the message
@@ -73,7 +73,7 @@ try {
 	}
 
 	// report a successful send
-	echo "<div class=\"alert alert-success\" role=\"alert\">Your message was sent successfully. I'll be in touch!</div>";
+	echo "<div class=\"alert alert-success\" role=\"alert\">I'll be in touch! Your message was sent successfully.</div>";
 
 } catch(Exception $exception) {
 	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Uh Oh!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
