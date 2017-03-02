@@ -61,12 +61,12 @@
 			</nav>
 		</div>
 <div class="container-fluid reveal">
-		<div class="container-fluid" id="welcome-section">
+		<div id="welcome-section">
 			<div class="row">
 				<div class="col-xs-12 col-md-8">
 					<div class="welcome-box">
 						<div class="homepage-box-text">
-								<h3>Hey there, thanks for visiting my site</h3>
+								<h3>Hey there</h3>
 						</div>
 					</div>
 				</div>
@@ -110,7 +110,7 @@
 				</div>
 			</div> <!--end main welcome page row-->
 		</div><!--end welcome page section container-->
-		<div class="container-fluid" id="portfolio-section">
+		<div id="portfolio-section">
 			<div class="row">
 				<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 				<div class="col-xs-12 col-md-4" id="portfolio-text">
@@ -122,7 +122,7 @@
 				<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 			</div>
 		</div><!--end portfolio container -->
-		<div class="container-fluid" id="about-section">
+		<div id="about-section">
 			<div class="row" id="about-img">
 				<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 					<br/><br/>

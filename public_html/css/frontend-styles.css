@@ -1,5 +1,5 @@
 /******************************************
-***   import google fonts
+***   import google fonts              ***
 *******************************************/
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Merriweather|Open+Sans|Chonburi');
 
@@ -12,7 +12,7 @@ body {
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3 {
@@ -23,9 +23,9 @@ h1, h2, h3 {
 
 
 /******************************************
-***   navbar style
+***   navbar style                     ***
 *******************************************/
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.navbar-nav {
 		width: 100%;
 		text-align: center;
@@ -227,7 +227,7 @@ color: #ffd94c;
 	vertical-align: middle;
 }
 #about-text > h2 {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Chonburi', serif;
 	font-weight: bold;
 }
 
