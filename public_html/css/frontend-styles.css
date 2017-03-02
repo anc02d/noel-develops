@@ -17,10 +17,9 @@ p {
 
 h1, h2, h3 {
 	font-family: 'Chonburi', serif;
-	color: #ffd94c;
+	color: #ffc800;
 	text-shadow: 1px 1px 2px #000;
 }
-
 
 /******************************************
 ***   navbar style                     ***
@@ -54,6 +53,7 @@ h1, h2, h3 {
 .navbar-toggle {
 	z-index: 999;
 }
+
 .navbar-right {
 	color: white;
 	padding: 0 2%;
@@ -89,7 +89,7 @@ h1, h2, h3 {
 .navbar-nav li > a:hover {
 	color: black;
 	background-color: white;
-	border: 1px solid #ffd94c;
+	border: 1px solid #ffc800;
 	border-radius: 0px;
 }
 
@@ -109,7 +109,7 @@ h1, h2, h3 {
 }
 
 #logo:hover {
-color: #ffd94c;
+	color: #ffc800;
 }
 
 /******************************************
@@ -120,10 +120,7 @@ color: #ffd94c;
 	align-self: center;
 	flex: 1 0 auto;
 	padding: 2%;
-	justify-content: flex-start;
-}
-.homepage-box-text > h3 {
-	/*font-size: 3rem;*/
+	/*justify-content: flex-start;*/
 }
 
 #welcome-section {
@@ -134,7 +131,7 @@ color: #ffd94c;
 	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
 	background-size: 100%;
 	min-height: 600px;
-	/*margin: 10px 10px 10px 10px;*/
+	margin: 10px 10px 10px 10px;
 	display: flex;
 }
 
@@ -142,41 +139,42 @@ color: #ffd94c;
 	/*background: url("../images/desk-scene-color.jpg") no-repeat center center;*/
 	background-color: #fff;
 	background-size: 100%;
-	border: 2px solid #ffd94c;
+	border: 2px solid #ffc800;
 	min-height: 300px;
-	/*margin: 10px 10px 10px 10px;*/
+	margin: 10px 10px 10px 10px;
 	display: flex;
 }
 
 .contact-box {
 	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
 	background-color: #fff;
-	border: 2px solid #ffd94c;
+	border: 2px solid #ffc800;
 	background-size: 100%;
 	min-height: 300px;
-	/*margin: 10px 10px 10px 10px;*/
+	margin: 10px 10px 10px 10px;
 	display: flex;
 }
 
 .about-box {
 	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
 	background-color: #fff;
-	border: 2px solid #ffd94c;
+	border: 2px solid #ffc800;
 	background-size: 100%;
 	min-height: 150px;
-	/*margin: 10px 10px 10px 10px;*/
+	margin: 10px 10px 10px 10px;
 	display: flex;
 }
 
 .skills-box {
-	 /*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
 	background-color: #fff;
-	border: 2px solid #ffd94c;
-	 background-size: 100%;
-	 min-height: 150px;
-	 /*margin: 10px 10px 10px 10px;*/
-	 display: flex;
- }
+	border: 2px solid #ffc800;
+	background-size: 100%;
+	min-height: 150px;
+	margin: 10px 10px 10px 10px;
+	display: flex;
+}
+
 /*************************************************
  ** now we are moving to the portfolio section of my site
  **********************************************************/
@@ -201,6 +199,7 @@ color: #ffd94c;
 
 #portfolio-text h2 {
 	text-align: center;
+	text-shadow: 1px 1px grey;
 }
 
 /************************************************
@@ -219,13 +218,14 @@ color: #ffd94c;
 #about-text {
 	color: black;
 	font-weight: bold;
-	/*text-shadow: 1px 2px 2px #ffd94c;*/
+	/*text-shadow: 1px 2px 2px #ffc800;*/
 	font-size: 2rem;
 	text-align: justify;
 	padding: 0 0 30px;
 	overflow: hidden;
 	vertical-align: middle;
 }
+
 #about-text > h2 {
 	font-family: 'Chonburi', serif;
 	font-weight: bold;
@@ -236,6 +236,10 @@ color: #ffd94c;
 **************************************************************/
 .reveal {
 	margin-bottom: 700px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	background-color: #000;
 	position: relative;
 	z-index: 2;

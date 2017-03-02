@@ -16,11 +16,10 @@
 		<!--My Custom CSS stylesheet @author Noel Cothren ---->
 		<link rel="stylesheet" href="css/frontend-styles.css"/>
 
-		<!--Bootstrap Javascript--->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 		<!--jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<!--Bootstrap Javascript--->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Validate, Additional Methods -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
@@ -66,7 +65,7 @@
 				<div class="col-xs-12 col-md-8">
 					<div class="welcome-box">
 						<div class="homepage-box-text">
-								<h3>Hey there</h3>
+								<h3>Hey there, this site is in progress!<br /> Check back soon for a better experience!</h3>
 						</div>
 					</div>
 				</div>
