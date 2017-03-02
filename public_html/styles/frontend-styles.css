@@ -1,10 +1,10 @@
 /******************************************
 ***   import google fonts
 *******************************************/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300|Merriweather|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Neuton:400,700|Merriweather|Open+Sans');
 
 /******************************************
-***   general style guidelines
+***   general style guidelines         ***
 *******************************************/
 body {
 	padding-top: 80px; /*to offset the fixed navbar*/
@@ -16,7 +16,7 @@ p {
 }
 
 h1, h2, h3 {
-	font-family: 'Merriweather', serif;
+	font-family: 'Neuton', serif;
 	color: #ffd94c;
 	text-shadow: 1px 1px 2px #000;
 }
@@ -223,7 +223,7 @@ color: #ffd94c;
 	/*text-shadow: 1px 2px 2px #ffd94c;*/
 	font-size: 2rem;
 	text-align: justify;
-	padding: 0 0 15px 0;
+	padding: 0 0 30px 0;
 	overflow: hidden;
 }
 #about-text > h2 {
@@ -235,6 +235,7 @@ color: #ffd94c;
 ** this is the contact form starting with the way I hide it
 **************************************************************/
 .reveal {
+	margin-bottom: 700px;
 	background-color: #000;
 	position: relative;
 	z-index: 2;
