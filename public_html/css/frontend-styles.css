@@ -28,45 +28,45 @@ h1, h2, h3 {
 }
 
 /******************************************
-***   navbar style                     ***
+***   navbar media queries              ***
 *******************************************/
 @media only screen and (min-width: 768px) {
 	.navbar-nav {
 		width: 100%;
 		text-align: center;
 	}
-
 	.navbar-nav > li {
 		float: none;
 		display: inline-block;
 	}
-
 	.navbar-nav > li.navbar-right {
 		float: right !important;
 	}
+}
 
-	.navbar-brand {
+@media screen and (max-width: 860px) {
+	.navbar-nav>li>a {
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width: 435px){
+	a#logo.navbar-brand {
 		font-size: 2rem;
 	}
-}
-
-@media (min-width: 1100px) {
 	.navbar-brand {
-		font-size: 1rem;
+		float: left;
+		padding-left: 0;
 	}
 }
-
+/******************************************
+***   navbar styling                   ***
+*******************************************/
 .navbar-toggle {
 	z-index: 999;
 }
 
-.navbar-right {
-	color: white;
-	padding: 0 2%;
-}
-
-.navbar-left {
-	color: white;
+.navbar-right .navbar-left {
 	padding: 0 2%;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3 {
 }
 
 .navbar-nav > li > a {
-	color: whitesmoke;
+	color: white;
 	font-family: 'Open Sans', sans-serif !important;
 	font-size: 2rem;
 	-webkit-transition: all 500ms ease;
@@ -86,32 +86,24 @@ h1, h2, h3 {
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
-}
-
-.navbar-nav li > a:link {
 	border: 1px solid transparent;
 }
 
 .navbar-nav li > a:hover {
-	color: black;
-	background-color: white;
 	border: 1px solid #ffc800;
 	border-radius: 0px;
 }
 
-.navbar-brand {
+#logo {
+	color: white;
+	background-color: black;
+	font-family: 'Chonburi', serif;
+	font-size: 3rem;
 	position: absolute;
 	width: 100%;
 	left: 0;
 	text-align: center;
 	margin: 0 auto;
-	/*padding: 2%;*/
-}
-
-#logo {
-	color: white;
-	font-family: 'Chonburi', serif;
-	font-size: 3rem;
 }
 
 #logo:hover {
@@ -119,14 +111,13 @@ h1, h2, h3 {
 }
 
 /**********************************************************
-***           homepage media layout and style           ***
+***           homepage layout and style                ***
  **********************************************************/
 .homepage-box-text {
 	background: rgba(0, 0, 0, 0.5);
 	align-self: center;
 	flex: 1 0 0;
 	padding: 2%;
-	/*justify-content: flex-start;*/
 }
 
 #welcome-section {
@@ -192,8 +183,8 @@ h1, h2, h3 {
 }
 
 /*********************************************************
- ** now we are moving to the portfolio section of my site
- **********************************************************/
+ ***             portfolio section                    ***
+ *********************************************************/
 #portfolio-section {
 	background-color: black;
 	padding: 50px;
@@ -218,8 +209,8 @@ h1, h2, h3 {
 	text-shadow: 1px 1px grey;
 }
 
-/************************************************
-** the about me section
+/*************************************************
+***      about me section                     ***
 **************************************************/
 #about-section {
 	background-color: white;
@@ -234,21 +225,24 @@ h1, h2, h3 {
 #about-text {
 	color: black;
 	font-weight: bold;
-	/*text-shadow: 1px 2px 2px #ffc800;*/
 	font-size: 2rem;
 	text-align: justify;
-	padding: 0 0 30px;
-	overflow: hidden;
-	vertical-align: middle;
+	padding: 2%;
 }
 
 #about-text > h2 {
-	font-family: 'Chonburi', serif;
+	/*font-family: 'Chonburi', serif;*/
 	font-weight: bold;
 }
 
+@media screen and (max-width: 991px){
+	#about-text {
+		padding: 5%;
+	}
+}
+
 /************************************************************
-***   contact form starting with the way I hide it        ***
+***   contact form hide and reveal magic                 ***
 *************************************************************/
 .reveal {
 	margin-bottom: 700px;
