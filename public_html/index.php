@@ -79,7 +79,7 @@
 							<div class="col-xs-12 col-md-12">
 								<div class="portfolio-box">
 									<div class="homepage-box-text">
-										<h3>Portfolio</h3>
+										<h3>Work & Play</h3>
 									</div>
 								</div>
 							</div>
@@ -90,7 +90,7 @@
 									<div class="col-xs-12 col-md-12">
 										<div class="about-box">
 											<div class="homepage-box-text">
-												<h3>About</h3>
+												<h3>About Me</h3>
 											</div>
 										</div>
 									</div>
@@ -106,7 +106,7 @@
 							<div class="col-xs-12 col-md-6">
 								<div class="contact-box">
 									<div class="homepage-box-text">
-										<h3>Contact</h3>
+										<h3>Get in touch!</h3>
 									</div>
 								</div>
 							</div>
@@ -119,18 +119,14 @@
 					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 					<div class="col-xs-12 col-md-4" id="portfolio-text">
 						<h2>WORK & PLAY</h2>
-						<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle,
-							shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle
-							tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle
-							izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus
-							dang. </p>
-						<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle
-							stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz
-							sizzle check it out. Uhuh ... yih! </p>
-						<p>Rizzle a bow wow wow crazy mi dang ass. Curabitur yo gangster ipsizzle. Fo shizzle habitant
-							morbirizzle senectus et netizzle izzle we gonna chung fames izzle brizzle pot. In est. Curabitizzle
-							elementum. Ut eros felis, dope sure, pimpin' izzle, gangster pulvinizzle, i'm in the shizzle. Nulla
-							sagittizzle gravida velit.</p>
+						<p>I love making dynamic and beautiful websites, collaborating on software applications, and solving
+							real-world problems using software as a tool for better living. I believe in going above and
+							beyond, providing fantastic customer service, and maintaining an excellent standard of work.
+						</p>
+						<p>I love coding! It’s like a game — trying to define problems and design solutions is so fun that I
+							don’t mind spending hours perfecting my craft.</p>
+						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
+							Angular 2. Some of my favorite programming projects are included in this gallery.</p>
 					</div>
 					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 				</div>
@@ -140,14 +136,15 @@
 					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 						<br/><br/>
 						<h2>Hi. I'm Noel.</h2>
-						<p>Lorizzle sure dolizzle sit dang, you son of a bizzle adipiscing elit. Yippiyo tellivizzle velizzle,
-							shizznit volutpizzle, suscipizzle quis, sure vizzle, fo shizzle. Uhuh ... yih! tellivizzle
-							tortizzle. Sed eros. Shizzle my nizzle crocodizzle izzle its fo rizzle dapibus dawg tempizzle
-							izzle. Mauris pellentesque nibh et turpizzle. Vestibulum crunk . Pellentesque eleifend rhoncus
-							dang. </p>
-						<p>In fo shizzle fizzle dictumst. Get down get down dapibizzle. Curabitur tellus urna, pretizzle
-							stuff, mattizzle boofron, bling bling vitae, nunc. Break it down suscipit. Integizzle dang shiz
-							sizzle check it out. Uhuh ... yih! </p>
+						<p>You can find me living in the high desert, reading, making crafts, taking trips to the library,
+							walking in the forest, philosophizing, eating veggies for breakfast, writing essays, listening to
+							1920s jazz bands, and contemplating the divine.</p>
+						<p>My special talents include list-making, wedding officiating, pop-up card crafting, and the ability
+							to learn almost anything quickly.</p>
+						<p>I’ve traveled for extended periods of time across the US and in South America, and speak Spanish
+							fluently. In addition to programming, I spend my time studying linguistics, psychology, and coral
+							reef biology.</p>
+						<p>Want to know more? Get in touch! </p>
 					</div>
 				</div>
 			</div> <!--end #about-section container -->
