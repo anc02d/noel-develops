@@ -123,51 +123,77 @@ h1, h2, h3 {
 #welcome-section {
 	background-color: white;
 }
-
+.welcome-box .portfolio-box .contact-box .about-box .skills-box {
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	margin: 10px;
+	display: flex;
+}
 .welcome-box {
 	background: url("../images/desk-scene-bw.jpg") no-repeat center center;
 	min-height: 600px;
-	margin: 10px 10px 10px 10px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	margin: 10px;
 	display: flex;
 }
 
 .portfolio-box {
-	/*background: url("../images/desk-scene-color.jpg") no-repeat center center;*/
+	background: url("../images/work-time-bw-fade.jpg") no-repeat center center;
 	background-color: #fff;
-	background-size: 100%;
+	/*background-size: 100%;*/
 	border: 2px solid #cc99b0;
 	min-height: 300px;
-	margin: 10px 10px 10px 10px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	margin: 10px;
 	display: flex;
 }
 
 .contact-box {
-	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	background: url("../images/balloon-jeep-bw.jpg") no-repeat center center;
 	background-color: #fff;
 	border: 2px solid #cc99b0;
-	background-size: 100%;
+	/*background-size: 100%;*/
 	min-height: 300px;
-	margin: 10px 10px 10px 10px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	margin: 10px;
 	display: flex;
 }
 
 .about-box {
-	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	background: url("../images/coffee-arms.jpg") no-repeat center center;
 	background-color: #fff;
 	border: 2px solid #cc99b0;
-	background-size: 100%;
-	min-height: 150px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	min-height: 130px;
 	margin: 10px 10px 10px 10px;
 	display: flex;
 }
 
 .skills-box {
-	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
+	background: url("../images/typing.gif") no-repeat center center;
 	background-color: #fff;
 	border: 2px solid #cc99b0;
-	background-size: 100%;
-	min-height: 150px;
-	margin: 10px 10px 10px 10px;
+	/*background-size: 100%;*/
+	min-height: 130px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	margin: 10px;
 	display: flex;
 }
 
