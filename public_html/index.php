@@ -126,7 +126,7 @@
 						<p>I love coding! It’s like a game! Trying to define problems and design solutions is so fun that I
 							don’t mind spending hours perfecting my craft.</p>
 						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
-							Angular 2. Some of my favorite programming projects are included in this gallery.</p>
+							Angular 2. Some of my favorite programming projects are included in this gallery, and you can find more on <a href="https://github.com/anc02d">my GitHub profile.</a></p>
 					</div>
 					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 				</div>
