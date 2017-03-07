@@ -136,9 +136,9 @@
 					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 						<br/><br/>
 						<h2>Hi. I'm Noel.</h2>
-						<p>You can find me living in the high desert, reading, making crafts, taking trips to the library,
-							walking in the forest, philosophizing, eating veggies for breakfast, writing essays, listening to
-							1920s jazz bands, and contemplating the divine.</p>
+						<p>When I'm not working on a project, you might find me wandering in the high desert, reading, making
+							crafts, taking trips to the library, hiking in the forest, philosophizing, eating veggies for
+							breakfast, writing essays, listening to 1920s jazz bands, or contemplating the divine.</p>
 						<p>My special talents include list-making, wedding officiating, pop-up card crafting, and the ability
 							to learn almost anything quickly.</p>
 						<p>I’ve traveled for extended periods of time across the US and in South America, and speak Spanish

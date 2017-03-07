@@ -23,7 +23,7 @@ p {
 
 h1, h2, h3 {
 	font-family: 'Chonburi', serif;
-	color: #ffc800;
+	color: #DA4453;
 	text-shadow: 1px 1px 2px #000;
 }
 
@@ -90,7 +90,7 @@ h1, h2, h3 {
 }
 
 .navbar-nav li > a:hover {
-	border: 1px solid #ffc800;
+	border: 1px solid #DA4453;
 	border-radius: 0px;
 }
 
@@ -107,7 +107,7 @@ h1, h2, h3 {
 }
 
 #logo:hover {
-	color: #ffc800;
+	color: #DA4453;
 }
 
 /**********************************************************
@@ -135,7 +135,7 @@ h1, h2, h3 {
 	/*background: url("../images/desk-scene-color.jpg") no-repeat center center;*/
 	background-color: #fff;
 	background-size: 100%;
-	border: 2px solid #ffc800;
+	border: 2px solid #DA4453;
 	min-height: 300px;
 	margin: 10px 10px 10px 10px;
 	display: flex;
@@ -144,7 +144,7 @@ h1, h2, h3 {
 .contact-box {
 	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
 	background-color: #fff;
-	border: 2px solid #ffc800;
+	border: 2px solid #DA4453;
 	background-size: 100%;
 	min-height: 300px;
 	margin: 10px 10px 10px 10px;
@@ -154,7 +154,7 @@ h1, h2, h3 {
 .about-box {
 	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
 	background-color: #fff;
-	border: 2px solid #ffc800;
+	border: 2px solid #DA4453;
 	background-size: 100%;
 	min-height: 150px;
 	margin: 10px 10px 10px 10px;
@@ -164,7 +164,7 @@ h1, h2, h3 {
 .skills-box {
 	/*background: url("../images/desk-scene-bw.jpg") no-repeat center center;*/
 	background-color: #fff;
-	border: 2px solid #ffc800;
+	border: 2px solid #DA4453;
 	background-size: 100%;
 	min-height: 150px;
 	margin: 10px 10px 10px 10px;
