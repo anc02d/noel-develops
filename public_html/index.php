@@ -123,7 +123,7 @@
 							real-world problems using software as a tool for better living. I believe in going above and
 							beyond, providing fantastic customer service, and maintaining an excellent standard of work.
 						</p>
-						<p>I love coding! It’s like a game — trying to define problems and design solutions is so fun that I
+						<p>I love coding! It’s like a game! Trying to define problems and design solutions is so fun that I
 							don’t mind spending hours perfecting my craft.</p>
 						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
 							Angular 2. Some of my favorite programming projects are included in this gallery.</p>
