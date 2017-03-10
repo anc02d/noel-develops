@@ -5,6 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+		<link rel="apple-touch-icon" sizes="180x180" href="images/noel_favi.png">
+		<link rel="icon" type="image/png" href="images/noel_favi.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/noel_favi.png" sizes="16x16">
+
+		<link rel="mask-icon" href="images/noel_favi.png" color="#5bbad5 ">
+
 		<!--Bootstrap Stylesheet from CDN-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -175,8 +181,7 @@
 						<label for="formInputMessage">
 							Message
 						</label>
-						<textarea class="form-control" rows="5" id="message" name="message" placeholder="How can I help you?">
-						</textarea>
+						<textarea type="text" class="form-control" rows="3" id="message" name="message" placeholder="How can I help you?"></textarea>
 					</div>
 					<div class="g-recaptcha" data-sitekey="6LdXbRcUAAAAAD8YqILaySEsGeARVv2DDCLkl3tE"></div>
 					<button type="submit" class="btn btn-default">Submit</button>
