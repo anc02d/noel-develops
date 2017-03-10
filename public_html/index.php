@@ -42,6 +42,15 @@
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script>
+			$(function() {
+				$('.navbar-nav').on('click', function(){
+					if($('.navbar-header .navbar-toggle').css('display') !='none'){
+						$(".navbar-header .navbar-toggle").trigger( "click" );
+					}
+				});
+			});
+		</script>
 
 		<title>Noel Develops</title>
 	</head>
