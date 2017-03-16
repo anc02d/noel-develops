@@ -29,6 +29,9 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
+<!--		scroll anchor -->
+		<script src="js/scroll-anchor.js"></script>
+
 		<!-- jQuery Form, Validate, Additional Methods -->
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
@@ -71,9 +74,9 @@
 					<ul class="nav navbar-nav">
 						<li class="navbar-left"><a href="#welcome-section">Home</a></li>
 						<li class="navbar-left"><a href="#about-section">About</a></li>
-						<li class="navbar-left"><a href="#skills-section">Skills</a></li>
-						<li class="navbar-right"><a href="#portfolio-section">Portfolio</a></li>
-						<li class="navbar-right"><a href="#skills-section">Links</a></li>
+<!--						<li class="navbar-left"><a href="#skills-section">Skills</a></li>-->
+						<li class="navbar-right"><a href="#portfolio-link">Portfolio</a></li>
+<!--						<li class="navbar-right"><a href="#skills-section">Links</a></li>-->
 						<li class="navbar-right"><a href="#contact-section">Contact</a></li>
 					</ul>
 				</div>
@@ -82,7 +85,7 @@
 		<div class="container-fluid reveal">
 			<div id="welcome-section">
 				<div class="row">
-					<div class="col-xs-12 col-md-8">
+					<div class="col-xs-12 col-md-8 hidden-xs hidden-sm">
 						<div class="welcome-box">
 							<div class="homepage-box-text">
 								<h3>Hey there, this site is in progress!<br/> Check back soon for a better experience!</h3>
@@ -94,7 +97,7 @@
 							<div class="col-xs-12 col-md-12">
 								<div class="portfolio-box">
 									<div class="homepage-box-text">
-										<h3><a href="#portfolio-section">Work & Play</a></h3>
+										<h3><a href="#portfolio-link">Work & Play</a></h3>
 									</div>
 								</div>
 							</div>
@@ -128,6 +131,7 @@
 						</div>
 					</div>
 				</div> <!--end main welcome page row-->
+				<span id="portfolio-link"></span>
 			</div><!--end welcome page section container-->
 			<div id="portfolio-section">
 				<div class="row">
@@ -151,11 +155,9 @@
 					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 						<h2>Hi. I'm Noel.</h2>
 						<p>When I'm not working on a project, you might find me wandering in the high desert, reading, making
-							crafts, taking trips to the library, hiking in the forest, philosophizing, eating veggies for
-							breakfast, writing essays, listening to 1920s jazz bands, or contemplating the divine.</p>
-						<p>My special talents include list-making, wedding officiating, pop-up card crafting, and the ability
+							crafts, taking trips to the library, writing essays, and contemplating the divine. My special talents include list-making, wedding officiating, pop-up card crafting, and the ability
 							to learn almost anything quickly.</p>
-						<p>I’ve traveled for extended periods of time across the US and in South America, and speak Spanish
+						<p>I’ve traveled extensively across the US and South America, and speak Spanish
 							fluently. In addition to programming, I spend my time studying linguistics, psychology, and coral
 							reef biology.</p>
 						<p>Want to know more? Get in touch! </p>
@@ -169,7 +171,7 @@
 				<div class="col-xs-12 col-md-2"></div>
 				<div class="col-xs-12 col-md-2"></div>
 				<div class="col-xs-12 col-md-2"></div>
-			</div>
+			</div> <!-- end skills/links section -->
 		</div>
 		<div class="row" id="contact-section">
 			<h1>Let's work together!</h1>

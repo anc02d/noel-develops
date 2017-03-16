@@ -162,7 +162,7 @@ h1, h2, h3 {
 .contact-box {
 	background: url("../images/balloon-jeep-bw.jpg") no-repeat center center;
 	background-color: #fff;
-	min-height: 300px;
+	min-height: 280px;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
