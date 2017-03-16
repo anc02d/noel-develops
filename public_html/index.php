@@ -146,8 +146,8 @@
 					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 				</div>
 			</div><!--end portfolio container -->
-			<div id="about-section">
-				<div class="row" id="about-img">
+			<div class="row" id="about-section">
+				<div id="about-img">
 					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 						<h2>Hi. I'm Noel.</h2>
 						<p>When I'm not working on a project, you might find me wandering in the high desert, reading, making
