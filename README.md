@@ -48,3 +48,20 @@ Your CSS is nearly perfect, but you don't need to include the div. before the el
 
 ## Milestone 2btea; Feedback
 Excellent work so far! Your Milestone 2&beta; passes at Tier IV. Detailed notes sent via Slack.
+
+
+
+## Final PWP Feedback
+Your site is looking fantastic! Great job. Your commit messages are pretty meaningful and I have atleast an idea of what you changed when I see the message. 
+
+I only see a couple of very minor mobile responsiveness issues - none of which are site breaking or even annoying. This is especially impressive due to the complicated design that you chose to pursue for the site. 
+
+Your contact form works perfectly. No issues during testing.
+
+Overall, your site is beautiful and the functionality is near perfect. There are only a couple of things I'd like to suggest you change
+
+1. I'm sure this is already going to be changed in the future, but make sure all of your navbar links go to a seperate section of the site (or page, if you're going to add new pages onto the site now.) Also, make sure your anchor tags take you to the correct part of a section - for example, if I choose to go to Portfolio, I'm dropped off about a little under the beginning of the text, so I have to scroll up to read the first couple sentences. 
+
+2. On the images at the top of your site, I would increase the size of the links to cover the entire image, rather than just the text itself.
+
+Your finished site passes in Tier IV. Great job.
