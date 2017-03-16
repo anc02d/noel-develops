@@ -94,7 +94,7 @@
 							<div class="col-xs-12 col-md-12">
 								<div class="portfolio-box">
 									<div class="homepage-box-text">
-										<h3>Work & Play</h3>
+										<h3><a href="#portfolio-section">Work & Play</a></h3>
 									</div>
 								</div>
 							</div>
@@ -105,7 +105,7 @@
 									<div class="col-xs-12 col-md-12">
 										<div class="about-box">
 											<div class="homepage-box-text">
-												<h3>About Me</h3>
+												<h3><a href="#about-section">About Me</a></h3>
 											</div>
 										</div>
 									</div>
@@ -121,7 +121,7 @@
 							<div class="col-xs-12 col-md-6">
 								<div class="contact-box">
 									<div class="homepage-box-text">
-										<h3>Get in touch!</h3>
+										<h3><a href="#contact-section">Get in touch!</a></h3>
 									</div>
 								</div>
 							</div>

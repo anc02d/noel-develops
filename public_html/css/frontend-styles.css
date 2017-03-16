@@ -127,6 +127,11 @@ h1, h2, h3 {
 	padding: 2%;
 }
 
+.homepage-box-text > h3 > a {
+	color: #ff3340;
+	text-decoration: none;
+}
+
 #welcome-section {
 	background-color: white;
 }
@@ -289,7 +294,7 @@ h1, h2, h3 {
 	max-height: 650px;
 }
 
-@media only screen and (max-width: 751px), screen and (max-height: 650px) {
+@media only screen and (max-width: 751px), screen and (max-height: 600px) {
 	#contact-section {
 		position: relative;
 		left: 0px;
