@@ -98,6 +98,7 @@
 			</div><!--end welcome page section container-->
 			<span class="anchor" id="portfolio"></span>
 			<div id="portfolio-section">
+				<h2>WORK & PLAY</h2>
 				<div class="row">
 					<div class="col-xs-12 col-md-4 portfolio-img-div">
 						<a href="https://sprout-swap.com">
@@ -110,7 +111,6 @@
 							  class="port-img img-responsive">
 					</div>
 					<div class="col-xs-12 col-md-4" id="portfolio-text">
-						<h2>WORK & PLAY</h2>
 						<p>I believe in going above and
 							beyond, providing fantastic customer service, and maintaining an excellent standard of work. </p>
 						<p>I love making dynamic and beautiful websites, collaborating on software applications, and solving
