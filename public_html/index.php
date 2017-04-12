@@ -103,22 +103,28 @@
 						<a href="https://sprout-swap.com">
 							<img src="images/sprout-swap-logo.png" alt="Sprout-Swap.com" class="port-img img-responsive">
 						</a>
-						<p>Sprout Swap is a social site that allows local growers to connect with people who may be interested in buying or swapping their homegrown vegetables. Users with profiles may make posts offering items from their gardens, and other users may respond and offer to trade or buy these fresh veggies.</p>
-						<img src="images/sproutswap-home.png" alt="home page" id="sprout-swap" class="port-img img-responsive">
+						<p>Sprout Swap is a social site that allows local growers to connect with people who may be interested
+							in buying or swapping their homegrown vegetables. Users with profiles may make posts offering items
+							from their gardens, and other users may respond and offer to trade or buy these fresh veggies.</p>
+						<img src="images/sproutswap-home.png" alt="home page" id="sprout-swap"
+							  class="port-img img-responsive">
 					</div>
 					<div class="col-xs-12 col-md-4" id="portfolio-text">
 						<h2>WORK & PLAY</h2>
 						<p>I love making dynamic and beautiful websites, collaborating on software applications, and solving
 							real-world problems using software as a tool for better living. I believe in going above and
-							beyond, providing fantastic customer service, and maintaining an excellent standard of work.
-						</p>
-						<p>I love coding! It’s like a game! Trying to define problems and design solutions is so fun that I
+							beyond, providing fantastic customer service, and maintaining an excellent standard of work. Trying
+							to define problems and design solutions is so fun that I
 							don’t mind spending hours perfecting my craft.</p>
 						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
-							Angular 2. Some of my favorite programming projects are included in this gallery, and you can find
-							more on <a href="https://github.com/anc02d">my GitHub profile.</a></p>
+							Angular 2. Some of my favorite programming projects are included here, and you can find
+							more on <a href="https://github.com/anc02d" id="github-link">my GitHub profile.</a></p>
 					</div>
-					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
+					<div class="col-xs-12 col-md-4 portfolio-img-div"><br/><br/>
+						<p id="placeholder">More images coming soon! Check out
+							<a href="https://github.com/anc02d" id="github-link">my GitHub profile.</a> to see code I've
+							written.</p>
+					</div>
 				</div>
 			</div><!--end portfolio container -->
 			<span class="anchor" id="about"></span>
@@ -126,14 +132,10 @@
 				<div id="about-img">
 					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 						<h2>Hi. I'm Noel.</h2>
-						<p>When I'm not working on a project, you might find me wandering in the high desert, reading, making
-							crafts, taking trips to the library, writing essays, and contemplating the divine. My special
-							talents include list-making, wedding officiating, pop-up card crafting, and the ability
-							to learn almost anything quickly.</p>
-						<p>I’ve traveled extensively across the US and South America, and speak Spanish
-							fluently. In addition to programming, I spend my time studying linguistics, psychology, and coral
-							reef biology.</p>
-						<p>Want to know more? Get in touch! </p>
+						<p>When I'm not working on a project, you might find me wandering in the high desert, taking trips to
+							the library, list-making, wedding officiating, pop-up card crafting, or nurturing my billion little
+							pets in our coral reef tank. <br/><br/>I love to travel and have explored across the US, Europe,
+							and South America. &#161Hablo espa&#241ol!<br/><br/>Want to know more? Get in touch! </p>
 					</div>
 				</div>
 			</div> <!--end #about-section container -->

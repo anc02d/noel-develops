@@ -119,10 +119,7 @@ h1, h2, h3 {
 	visibility: hidden;
 }
 /**********************************************************
-***           homepage layout and style
-               note to self: clunky on desktop
-               hide all boxes except welcome then
-               show on mobile!?                        ***
+***           homepage layout and style                 ***
  **********************************************************/
 .homepage-box-text {
 	background: rgba(0, 0, 0, 0.5);
@@ -154,6 +151,7 @@ h1, h2, h3 {
 
 #sprout-swap {
 	border: 1px solid black;
+margin: auto;
 }
 /**********************************************************
 ***           homepage media queries                    ***
@@ -182,7 +180,7 @@ h1, h2, h3 {
 
 #portfolio-text {
 	color: white;
-	text-align: justify;
+	text-align: left;
 	position: relative;
 	vertical-align: middle;
 }
@@ -196,6 +194,16 @@ h1, h2, h3 {
 	display: block;
 	overflow: hidden;
 	width: 250px;
+}
+
+#github-link {
+	color: #ff3340;
+	text-decoration: underline;
+}
+#placeholder {
+	text-align: center;
+	font-family: 'Chonburi', serif;
+	font-size: small;
 }
 /*************************************************
 ***      about me section                     ***
