@@ -5,11 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<link rel="apple-touch-icon" sizes="180x180" href="images/noel_favi.png">
-		<link rel="icon" type="image/png" href="images/noel_favi.png" sizes="32x32">
-		<link rel="icon" type="image/png" href="images/noel_favi.png" sizes="16x16">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/noel_favi_pink.png">
+		<link rel="icon" type="image/png" href="images/noel_favi_pink.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/noel_favi_pink.png" sizes="16x16">
 
-		<link rel="mask-icon" href="images/noel_favi.png" color="#5bbad5 ">
+		<link rel="mask-icon" href="images/noel_favi_pink.png" color="#ff3340">
 
 		<!--Bootstrap Stylesheet from CDN-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -29,7 +29,7 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-<!--		scroll anchor -->
+		<!--		scroll anchor -->
 		<script src="js/scroll-anchor.js"></script>
 
 		<!-- jQuery Form, Validate, Additional Methods -->
@@ -47,9 +47,9 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<script>
 			$(function() {
-				$('.navbar-nav').on('click', function(){
-					if($('.navbar-header .navbar-toggle').css('display') !='none'){
-						$(".navbar-header .navbar-toggle").trigger( "click" );
+				$('.navbar-nav').on('click', function() {
+					if($('.navbar-header .navbar-toggle').css('display') != 'none') {
+						$(".navbar-header .navbar-toggle").trigger("click");
 					}
 				});
 			});
@@ -72,70 +72,78 @@
 
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="navbar-left"><a href="#welcome-section">Home</a></li>
-						<li class="navbar-left"><a href="#about-section">About</a></li>
-<!--						<li class="navbar-left"><a href="#skills-section">Skills</a></li>-->
-						<li class="navbar-right"><a href="#portfolio-link">Portfolio</a></li>
-<!--						<li class="navbar-right"><a href="#skills-section">Links</a></li>-->
-						<li class="navbar-right"><a href="#contact-section">Contact</a></li>
+						<li class="navbar-left"><a href="#welcome">Home</a></li>
+						<li class="navbar-left"><a href="#about">About</a></li>
+						<!--						<li class="navbar-left"><a href="#skills-section">Skills</a></li>-->
+						<li class="navbar-right"><a href="#portfolio">Portfolio</a></li>
+						<!--						<li class="navbar-right"><a href="#skills-section">Links</a></li>-->
+						<li class="navbar-right"><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
+		<span class="anchor" id="welcome"></span>
 		<div class="container-fluid reveal">
 			<div id="welcome-section">
 				<div class="row">
-					<div class="col-xs-12 col-md-8 hidden-xs hidden-sm">
+					<div class="col-xs-12 col-md-12">
 						<div class="welcome-box">
 							<div class="homepage-box-text">
-								<h3>Hey there, this site is in progress!<br/> Check back soon for a better experience!</h3>
+								<h3>Hey there, thanks for visiting!</h3>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-md-4" id="portfolio-home-div">
-						<div class="row">
-							<div class="col-xs-12 col-md-12">
-								<div class="portfolio-box">
-									<div class="homepage-box-text">
-										<h3><a href="#portfolio-link">Work & Play</a></h3>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<div class="row">
-									<div class="col-xs-12 col-md-12">
-										<div class="about-box">
-											<div class="homepage-box-text">
-												<h3><a href="#about-section">About Me</a></h3>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 col-md-12">
-										<div class="skills-box">
-											<div class="homepage-box-text">
-												<h3>Skills</h3>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<div class="contact-box">
-									<div class="homepage-box-text">
-										<h3><a href="#contact-section">Get in touch!</a></h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+<!--					<div class="col-xs-12 col-md-4" id="portfolio-home-div">-->
+<!--						<div class="row">-->
+<!--							<div class="col-xs-12 col-md-12">-->
+<!--								<div class="portfolio-box">-->
+<!--									<div class="homepage-box-text">-->
+<!--										<h3><a href="#portfolio">Work & Play</a></h3>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="row">-->
+<!--							<div class="col-xs-12 col-md-6">-->
+<!--								<div class="row">-->
+<!--									<div class="col-xs-12 col-md-12">-->
+<!--										<div class="about-box">-->
+<!--											<div class="homepage-box-text">-->
+<!--												<h3><a href="#about">About Me</a></h3>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<div class="col-xs-12 col-md-12">-->
+<!--										<div class="skills-box">-->
+<!--											<div class="homepage-box-text">-->
+<!--												<h3>Skills</h3>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							<div class="col-xs-12 col-md-6">-->
+<!--								<div class="contact-box">-->
+<!--									<div class="homepage-box-text">-->
+<!--										<h3><a href="#contact">Get in touch!</a></h3>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
 				</div> <!--end main welcome page row-->
 				<span id="portfolio-link"></span>
 			</div><!--end welcome page section container-->
+			<span class="anchor" id="portfolio"></span>
 			<div id="portfolio-section">
 				<div class="row">
-					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
+					<div class="col-xs-12 col-md-4 portfolio-img-div">
+						<a href="https://sprout-swap.com">
+							<img src="images/sprout-swap-logo.png" alt="Sprout-Swap.com" class="port-img">
+						</a>
+						<p>Sprout Swap is a social site that allows local growers to connect with people who may be interested in buying or swapping their homegrown vegetables. Users with profiles may make posts offering items from their gardens, and other users may respond and offer to trade or buy these fresh veggies.</p>
+						<img src="images/sproutswap-home.png" alt="home page" id="sprout-swap" class="port-img">
+					</div>
 					<div class="col-xs-12 col-md-4" id="portfolio-text">
 						<h2>WORK & PLAY</h2>
 						<p>I love making dynamic and beautiful websites, collaborating on software applications, and solving
@@ -145,17 +153,20 @@
 						<p>I love coding! It’s like a game! Trying to define problems and design solutions is so fun that I
 							don’t mind spending hours perfecting my craft.</p>
 						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
-							Angular 2. Some of my favorite programming projects are included in this gallery, and you can find more on <a href="https://github.com/anc02d">my GitHub profile.</a></p>
+							Angular 2. Some of my favorite programming projects are included in this gallery, and you can find
+							more on <a href="https://github.com/anc02d">my GitHub profile.</a></p>
 					</div>
 					<div class="col-xs-12 col-md-4 portfolio-img-div"></div>
 				</div>
 			</div><!--end portfolio container -->
+			<span class="anchor" id="about"></span>
 			<div class="row" id="about-section">
 				<div id="about-img">
 					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
 						<h2>Hi. I'm Noel.</h2>
 						<p>When I'm not working on a project, you might find me wandering in the high desert, reading, making
-							crafts, taking trips to the library, writing essays, and contemplating the divine. My special talents include list-making, wedding officiating, pop-up card crafting, and the ability
+							crafts, taking trips to the library, writing essays, and contemplating the divine. My special
+							talents include list-making, wedding officiating, pop-up card crafting, and the ability
 							to learn almost anything quickly.</p>
 						<p>I’ve traveled extensively across the US and South America, and speak Spanish
 							fluently. In addition to programming, I spend my time studying linguistics, psychology, and coral
@@ -192,7 +203,8 @@
 						<label for="formInputMessage">
 							Message
 						</label>
-						<textarea type="text" class="form-control" rows="3" id="message" name="message" placeholder="How can I help you?"></textarea>
+						<textarea type="text" class="form-control" rows="3" id="message" name="message"
+									 placeholder="How can I help you?"></textarea>
 					</div>
 					<div class="g-recaptcha" data-sitekey="6LdXbRcUAAAAAD8YqILaySEsGeARVv2DDCLkl3tE"></div>
 					<button type="submit" class="btn btn-default">Submit</button>
@@ -205,5 +217,6 @@
 				</div>
 			</div>
 		</div>
+		<div id="contact"></div>
 	</body>
 </html>

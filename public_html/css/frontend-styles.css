@@ -111,8 +111,12 @@ h1, h2, h3 {
 #logo:hover {
 	color: #ff3340;
 }
-.row:target {
 
+.anchor {
+	display: block;
+	height: 70px;
+	margin-top: -70px;
+	visibility: hidden;
 }
 /**********************************************************
 ***           homepage layout and style
@@ -179,7 +183,7 @@ h1, h2, h3 {
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	min-height: 130px;
-	margin: 10px 10px 10px 10px;
+	margin: 10px;
 	display: flex;
 }
 
@@ -194,7 +198,9 @@ h1, h2, h3 {
 	margin: 10px;
 	display: flex;
 }
-
+#sprout-swap {
+	border: 1px solid black;
+}
 /**********************************************************
 ***           homepage media queries                    ***
  **********************************************************/
@@ -217,8 +223,7 @@ h1, h2, h3 {
 .portfolio-img-div {
 	background-color: whitesmoke;
 	border-radius: 5px;
-	/*width: 30%;*/
-	padding-bottom: 33%;
+	padding-bottom: 3%;
 }
 
 #portfolio-text {
@@ -233,6 +238,11 @@ h1, h2, h3 {
 	text-shadow: 1px 1px grey;
 }
 
+.port-img {
+	display: block;
+	overflow: hidden;
+	width: 250px;
+}
 /*************************************************
 ***      about me section                     ***
 **************************************************/
@@ -243,7 +253,6 @@ h1, h2, h3 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/*height: 600px;*/
 }
 
 #about-text {
@@ -256,7 +265,6 @@ h1, h2, h3 {
 }
 
 #about-text > h2 {
-	/*font-family: 'Chonburi', serif;*/
 	font-weight: bold;
 }
 
