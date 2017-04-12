@@ -111,9 +111,10 @@
 					</div>
 					<div class="col-xs-12 col-md-4" id="portfolio-text">
 						<h2>WORK & PLAY</h2>
+						<p>I believe in going above and
+							beyond, providing fantastic customer service, and maintaining an excellent standard of work. </p>
 						<p>I love making dynamic and beautiful websites, collaborating on software applications, and solving
-							real-world problems using software as a tool for better living. I believe in going above and
-							beyond, providing fantastic customer service, and maintaining an excellent standard of work. Trying
+							real-world problems using software as a tool for better living. Trying
 							to define problems and design solutions is so fun that I
 							don’t mind spending hours perfecting my craft.</p>
 						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
