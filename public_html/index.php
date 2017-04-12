@@ -93,44 +93,6 @@
 							</div>
 						</div>
 					</div>
-<!--					<div class="col-xs-12 col-md-4" id="portfolio-home-div">-->
-<!--						<div class="row">-->
-<!--							<div class="col-xs-12 col-md-12">-->
-<!--								<div class="portfolio-box">-->
-<!--									<div class="homepage-box-text">-->
-<!--										<h3><a href="#portfolio">Work & Play</a></h3>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="row">-->
-<!--							<div class="col-xs-12 col-md-6">-->
-<!--								<div class="row">-->
-<!--									<div class="col-xs-12 col-md-12">-->
-<!--										<div class="about-box">-->
-<!--											<div class="homepage-box-text">-->
-<!--												<h3><a href="#about">About Me</a></h3>-->
-<!--											</div>-->
-<!--										</div>-->
-<!--									</div>-->
-<!--									<div class="col-xs-12 col-md-12">-->
-<!--										<div class="skills-box">-->
-<!--											<div class="homepage-box-text">-->
-<!--												<h3>Skills</h3>-->
-<!--											</div>-->
-<!--										</div>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--							<div class="col-xs-12 col-md-6">-->
-<!--								<div class="contact-box">-->
-<!--									<div class="homepage-box-text">-->
-<!--										<h3><a href="#contact">Get in touch!</a></h3>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
 				</div> <!--end main welcome page row-->
 				<span id="portfolio-link"></span>
 			</div><!--end welcome page section container-->

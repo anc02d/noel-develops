@@ -151,53 +151,7 @@ h1, h2, h3 {
 	display: flex;
 }
 
-.portfolio-box {
-	background: url("../images/work-time-bw-fade.jpg") no-repeat center center;
-	background-color: #fff;
-	min-height: 300px;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	margin: 10px;
-	display: flex;
-}
 
-.contact-box {
-	background: url("../images/balloon-jeep-bw.jpg") no-repeat center center;
-	background-color: #fff;
-	min-height: 280px;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	margin: 10px;
-	display: flex;
-}
-
-.about-box {
-	background: url("../images/coffee-arms.jpg") no-repeat center center;
-	background-color: #fff;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	min-height: 130px;
-	margin: 10px;
-	display: flex;
-}
-
-.skills-box {
-	background: url("../images/typing.gif") no-repeat center center;
-	background-color: #fff;
-	min-height: 130px;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	margin: 10px;
-	display: flex;
-}
 #sprout-swap {
 	border: 1px solid black;
 }
