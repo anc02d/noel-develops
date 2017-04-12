@@ -101,10 +101,10 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-4 portfolio-img-div">
 						<a href="https://sprout-swap.com">
-							<img src="images/sprout-swap-logo.png" alt="Sprout-Swap.com" class="port-img">
+							<img src="images/sprout-swap-logo.png" alt="Sprout-Swap.com" class="port-img img-responsive">
 						</a>
 						<p>Sprout Swap is a social site that allows local growers to connect with people who may be interested in buying or swapping their homegrown vegetables. Users with profiles may make posts offering items from their gardens, and other users may respond and offer to trade or buy these fresh veggies.</p>
-						<img src="images/sproutswap-home.png" alt="home page" id="sprout-swap" class="port-img">
+						<img src="images/sproutswap-home.png" alt="home page" id="sprout-swap" class="port-img img-responsive">
 					</div>
 					<div class="col-xs-12 col-md-4" id="portfolio-text">
 						<h2>WORK & PLAY</h2>
