@@ -55,7 +55,7 @@
 			});
 		</script>
 
-		<title>Noel Develops</title>
+		<title>NoelDevelops</title>
 	</head>
 
 	<body>
@@ -67,7 +67,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" id="logo" href="#welcome-section">Noel <|> Develops</a>
+					<a class="navbar-brand" id="logo" href="#welcome-section">NoelDevelops</a>
 				</div>
 
 				<div class="navbar-collapse collapse">
@@ -160,7 +160,7 @@
 						<input type="email" class="form-control" id="email" name="email" placeholder="youremail@yoursite.com">
 					</div>
 					<div class="form-group">
-						<label for="formInputName">Name &/or Company</label>
+						<label for="formInputName">Name &amp;/or Company</label>
 						<input type="text" id="name" name="name" class="form-control" maxlength="64"
 								 placeholder="Your name and/or the name of your business">
 					</div>
