@@ -3,3 +3,4 @@
 /vendor
 # ignore sensitive mail config
 **/php/mail-config.php
+node_modules
