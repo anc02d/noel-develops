@@ -1,7 +1,0 @@
-{
-  "name": "noelDevelops",
-  "private": true,
-  "devDependencies": {
-    "grunt": "^1.0.1"
-  }
-}
