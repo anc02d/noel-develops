@@ -1,0 +1,86 @@
+/******************************************
+***   navbar media queries              ***
+*******************************************/
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+      &.navbar-right {
+        float: right !important;
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .navbar-nav > li > a {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  a#logo.navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    float: left;
+    padding-left: 0;
+  }
+}
+
+/******************************************
+***   navbar styling                   ***
+*******************************************/
+
+.navbar-toggle {
+  z-index: 999;
+}
+
+.navbar-right .navbar-left {
+  padding: 0 1%;
+}
+
+.navbar-fixed-top {
+  color: $fonts;
+  background-color: $background;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.navbar-nav {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 2rem;
+  > li > a {
+    color: $accent;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border: 1px solid transparent;
+  }
+  li > a:hover {
+    background-color: inherit;
+    border: 1px solid $accent;
+    border-radius: 0px;
+  }
+}
+
+#logo {
+  color: $accent;
+  background-color: $background;
+  font-family: $sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+  &:hover {
+    color: $accent-light;
+  }
+}

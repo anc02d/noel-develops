@@ -1,0 +1,40 @@
+/*************************************************
+***      about me section                     ***
+**************************************************/
+
+#about-section {
+  background-color: $background;
+  background: url("../images/desert-background-light.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about-text {
+  color:$fonts;
+  background-color: rgba(255, 248, 233, 0.3);
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+  padding: 2%;
+  > h2 {
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+
+.about-pic {
+  width: 150px;
+  display: inline-block;
+}
+#me {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  #about-text {
+    padding: 5%;
+  }
+}

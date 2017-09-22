@@ -1,3 +1,297 @@
+/******************************************
+***   import google fonts              ***
+*******************************************/
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Montserrat|Merriweather|Open+Sans|Chonburi");
+/******************************************
+***   general style guidelines         ***
+*******************************************/
 body {
-  color: yellow;
+  color: #000;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #9C27B0;
+}
+
+a:hover {
+  color: rgba(156, 39, 176, 0.75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  color: #9C27B0;
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.play {
+  font-family: "Permanent Marker", cursive;
+}
+
+/******************************************
+***   navbar media queries              ***
+*******************************************/
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .navbar-nav > li > a {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  a#logo.navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    float: left;
+    padding-left: 0;
+  }
+}
+
+/******************************************
+***   navbar styling                   ***
+*******************************************/
+.navbar-toggle {
+  z-index: 999;
+}
+
+.navbar-right .navbar-left {
+  padding: 0 1%;
+}
+
+.navbar-fixed-top {
+  color: #000;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.navbar-nav {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 2rem;
+}
+
+.navbar-nav > li > a {
+  color: #9C27B0;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border: 1px solid transparent;
+}
+
+.navbar-nav li > a:hover {
+  background-color: inherit;
+  border: 1px solid #9C27B0;
+  border-radius: 0px;
+}
+
+#logo {
+  color: #9C27B0;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#logo:hover {
+  color: rgba(156, 39, 176, 0.75);
+}
+
+/**********************************************************
+***           homepage layout and style                 ***
+ **********************************************************/
+.homepage-box-text {
+  align-self: center;
+  text-align: center;
+  flex: 1 0 0;
+  padding: 2%;
+}
+
+.homepage-box-text h3 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  background-color: black;
+  background-clip: padding-box;
+  padding: 10%;
+  border: .5em double black;
+  line-height: 1.5;
+}
+
+#welcome-section > .row {
+  background-color: #fff;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, transparent 50%, rgba(255, 255, 255, 0.6) 100%), linear-gradient(to bottom, rgba(255, 255, 0, 0.75) 0%, rgba(255, 0, 255, 0.75) 50%, rgba(0, 255, 255, 0.75) 100%), url("../images/desk-scene-edit.jpg") no-repeat center center;
+  min-height: 600px;
+  background-size: cover;
+  background-clip: padding-box;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+.welcome-box {
+  margin: 10px;
+  display: flex;
+}
+
+/**********************************************************
+***           homepage media queries                    ***
+ **********************************************************/
+@media only screen and (min-width: 992px) {
+  .welcome-box {
+    background-size: 100%;
+    margin: 10px 10px;
+    min-height: 600px;
+  }
+}
+
+/*************************************************
+***      about me section                     ***
+**************************************************/
+#about-section {
+  background-color: #fff;
+  background: url("../images/desert-background-light.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about-text {
+  color: #000;
+  background-color: rgba(255, 248, 233, 0.3);
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+  padding: 2%;
+}
+
+#about-text > h2 {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.about-pic {
+  width: 150px;
+  display: inline-block;
+}
+
+#me {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  #about-text {
+    padding: 5%;
+  }
+}
+
+/*********************************************************
+ ***             portfolio section  ***
+ *********************************************************/
+#portfolio-section {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#portfolio-section h2 {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.portfolio-card {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 1em 0;
+  font-size: .9em;
+}
+
+.portfolio-img {
+  border: 15px double #000;
+  margin-bottom: 1em;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.tech-tags {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -1em;
+}
+
+.tech-tags li {
+  flex: 0 0 auto;
+  padding: 0px 15px;
+  border-radius: 5px 0px;
+  border: 2px solid #9C27B0;
+  margin-right: .5em;
+}
+
+/************************************************************
+***   contact form hide and reveal magic                 ***
+*************************************************************/
+.reveal {
+  margin-bottom: 650px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+#contact-section {
+  padding: 40px 0;
+  margin: 0 20px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+  z-index: 1;
+  max-height: 650px;
+}
+
+@media only screen and (max-width: 751px), screen and (max-height: 600px) {
+  #contact-section {
+    position: relative;
+    left: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    z-index: 2;
+  }
+  .reveal {
+    margin-bottom: 10px;
+  }
 }

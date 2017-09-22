@@ -20,7 +20,7 @@
 				rel="stylesheet"/>
 
 		<!--My Custom CSS stylesheet @author Noel Cothren ---->
-		<link rel="stylesheet" href="css/frontend-styles.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
 
 		<!--jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -55,89 +55,88 @@
 			});
 		</script>
 
-		<title>Noel Develops</title>
+		<title>noelDevelops</title>
 	</head>
 
 	<body>
-		<div class="container">
-			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" id="logo" href="#welcome-section">Noel <|> Develops</a>
-				</div>
-
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="navbar-left"><a href="#welcome">Home</a></li>
-						<li class="navbar-left"><a href="#about">About</a></li>
-						<!--						<li class="navbar-left"><a href="#skills-section">Skills</a></li>-->
-						<li class="navbar-right"><a href="#portfolio">Portfolio</a></li>
-						<!--						<li class="navbar-right"><a href="#skills-section">Links</a></li>-->
-						<li class="navbar-right"><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-		<span class="anchor" id="welcome"></span>
 		<div class="container-fluid reveal">
 			<div id="welcome-section">
 				<div class="row">
 					<div class="col-xs-12 col-md-12">
 						<div class="welcome-box">
 							<div class="homepage-box-text">
-								<h3>Hey there, thanks for visiting!</h3>
+								<h3>Hey there, thanks for visiting my <span class="play">playfolio</span>. <br>More fun code experiments are coming soon!
+								<br>Scroll down to learn more.</h3>
 							</div>
 						</div>
 					</div>
 				</div> <!--end main welcome page row-->
-				<span id="portfolio-link"></span>
 			</div><!--end welcome page section container-->
-			<span class="anchor" id="portfolio"></span>
 			<div id="portfolio-section">
-				<h2>WORK & PLAY</h2>
 				<div class="row">
-					<div class="col-xs-12 col-md-4 portfolio-img-div">
-						<a href="https://sprout-swap.com">
-							<img src="images/sprout-swap-logo.png" alt="Sprout-Swap.com" class="port-img img-responsive">
-						</a>
-						<p>Sprout Swap is a social site that allows local growers to connect with people who may be interested
-							in buying or swapping their homegrown vegetables. Users with profiles may make posts offering items
-							from their gardens, and other users may respond and offer to trade or buy these fresh veggies.</p>
-						<img src="images/sproutswap-home.png" alt="home page" id="sprout-swap"
-							  class="port-img img-responsive">
+					<div class="col-md-12">
+						<h2>work + play</h2>
+							<p>I love making dynamic and beautiful websites, collaborating on software applications, solving real-world problems, and using software as a tool for better living. Defining problems and designing solutions is fun and I love spending hours perfecting my craft.</p>
+							<p>Some of my favorite projects are included here. You can find more code I've written on <a href="https://github.com/anc02d" id="github-link">my GitHub profile</a> and more websites I've created on my business site, <a href="http://thirdhandcollaborative.com" target="_blank"> Third Hand Collaborative.</a></p>
 					</div>
-					<div class="col-xs-12 col-md-4" id="portfolio-text">
-						<p>I believe in going above and
-							beyond, providing fantastic customer service, and maintaining an excellent standard of work. </p>
-						<p>I love making dynamic and beautiful websites, collaborating on software applications, and solving
-							real-world problems using software as a tool for better living. Trying
-							to define problems and design solutions is so fun that I
-							don’t mind spending hours perfecting my craft.</p>
-						<p>So far, I have worked on web sites and applications using HTML, CSS, PHP, mySQL, JavaScript, and
-							Angular 2. Some of my favorite programming projects are included here, and you can find
-							more on <a href="https://github.com/anc02d" id="github-link">my GitHub profile.</a></p>
-					</div>
-					<div class="col-xs-12 col-md-4 portfolio-img-div"><br/><br/>
-						<p id="placeholder">More images coming soon! Check out
-							<a href="https://github.com/anc02d" id="github-link">my GitHub profile.</a> to see code I've
-							written.</p>
-					</div>
-				</div>
+					<div class="col-xs-12 col-md-4 portfolio-card">
+						<div class="portfolio-img">
+							<a href="https://github.com/solomonleyba/sprout-swap" target="_blank">
+								<img src="images/sproutswap-home.png" alt="home page" class="img-responsive"></a>
+						</div>
+						<p>a social site that allows hobby farmers to connect with locals interested in buying or trading homegrown produce. Users make profiles and posts to offer items from their gardens, and may respond and offer to trade or buy others' fresh veggies. (team project)</p>
+						<h6>Features:</h6>
+						<ul>
+							<li>View grower's personalized profiles</li>
+							<li>Upload pics &amp; descriptions of produce to the local offers feed</li>
+							<li>Map offers near users' current location</li>
+						</ul>
+						<ul class="tech-tags">
+							<li>PHP</li>
+							<li>mySQL</li>
+							<li>Angular 2</li>
+						</ul>
+					</div><!-- sprout-swap card -->
+
+					<div class="col-xs-12 col-md-4 portfolio-card">
+						<div class="portfolio-img">
+							<a href="https://highdeserttitle.com" target="_blank">
+								<img src="images/nmlic-animation.gif" alt="hover animation" class="img-responsive"></a>
+						</div>
+						<p>a website for an Albuquerque-based title company - I had fun with hover animations inspired by the New Mexico license plates</p>
+						<h6>Features:</h6>
+						<ul>
+							<li>Latest News section easily updated by the website owners</li>
+							<li>Connected to Google business reviews</li>
+							<li>Map and picture of business location</li>
+						</ul>
+						<ul class="tech-tags">
+							<li>PHP</li>
+							<li>CSS</li>
+						</ul>
+					</div> <!-- end high desert -->
+					<div class="col-xs-12 col-md-4 portfolio-card">
+						<div class="portfolio-img">
+							<a href="http://noeldevelops/images/wp-loop.png" target="_blank">
+								<img src="images/wp-loop.png" alt="wordpress loop" class="img-responsive"></a>
+						</div>
+						<p>a custom Wordpress loop within a loop to relate two different custom post types on a page and display a category of posts within a separate category</p>
+						<ul class="tech-tags">
+							<li>PHP</li>
+							<li>CSS</li>
+							<li>Wordpress</li>
+						</ul>
+					</div> <!-- end portfolio card 3 -->
+				</div> <!-- end row -->
 			</div><!--end portfolio container -->
 			<span class="anchor" id="about"></span>
 			<div class="row" id="about-section">
-				<div id="about-img">
-					<div class="col-xs-12 col-md-4 col-md-offset-1" id="about-text">
-						<h2>Hi. I'm Noel.</h2>
-						<p>When I'm not working on a project, you might find me wandering in the high desert, taking trips to
-							the library, list-making, wedding officiating, pop-up card crafting, or nurturing my billion little
-							pets in our coral reef tank. <br/><br/>I love to travel and have explored across the US, Europe,
-							and South America. &#161Hablo espa&#241ol!<br/><br/>Want to know more? Get in touch! </p>
-					</div>
+				<div class="col-md-4 col-md-offset-1 about-pic">
+					<img id="me" src="images/beach-selfie.jpg" alt="selfie">
+				</div>
+				<div class="col-xs-12 col-md-6" id="about-text">
+					<h2>Hi. I'm Noel.</h2>
+					<p>When I'm not at my desk, you might find me wandering in the high desert, reading books at the library, list-making, wedding officiating, pop-up card crafting, or nurturing my billion little pets in our coral reef tank. <br/><br/>I love to travel and have explored across the US, Europe, and South America. &#161Hablo espa&#241ol (et un peu de français)! <br/><br/>Want to know more? Get in touch!</p>
 				</div>
 			</div> <!--end #about-section container -->
 			<div class="row" id="skills-section">
